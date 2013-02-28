@@ -9,10 +9,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 李成武
-tagline: Site Tagline
+title : 小武的轨迹
+tagline: stay hungry stay foolish
 author :
-  name : Name Lastname
+  name : 李小武
   email : ol_l@msn.cn
   github : lichengwu
   twitter : ol_beta
