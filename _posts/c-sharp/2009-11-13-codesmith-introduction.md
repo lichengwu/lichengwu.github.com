@@ -2,7 +2,7 @@
 layout: post
 title: "CodeSmith——欢迎来到CodeSmith"
 description: ""
-category: c#
+category: c-sharp
 subhead: ''
 tags: [.net,  codesmith, c#]
 

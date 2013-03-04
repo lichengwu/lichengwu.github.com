@@ -2,7 +2,7 @@
 layout: post
 title: "分享一个自己写的谷歌日历客户端(Google Calendar)"
 description: ""
-category: c#
+category: c-sharp
 subhead: ''
 tags: [.net,  google,  canlendar, c#]
 
