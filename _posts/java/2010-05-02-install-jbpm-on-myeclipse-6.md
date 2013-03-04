@@ -30,10 +30,11 @@ To add the update site to eclipse:
 -   Approve the license
 -   Restart eclipse when that is asked
 -   上面的官网的描述，具体做法如下图
+
     
-    ![](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zpsf9fb4e26.gif)
+![](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zpsf9fb4e26.gif)
      
-    ![](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps7ada51af.gif)
+![](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps7ada51af.gif)
      
 
 选择 new Archived site
