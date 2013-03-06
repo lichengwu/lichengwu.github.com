@@ -2,7 +2,7 @@
 layout: post
 title: "C# @符号的多种使用方法"
 description: ""
-category: c#
+category: c-sharp
 subhead: ''
 tags: [.net, c#]
 

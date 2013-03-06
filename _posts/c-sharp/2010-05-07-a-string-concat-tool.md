@@ -2,7 +2,7 @@
 layout: post
 title: "分享一个自己写的字符串工具：字符串格式化拼接"
 description: ""
-category: .net
+category: c-sharp
 subhead: ''
 tags: [.net,  c#,  tool,  string]
 
