@@ -23,11 +23,11 @@ tags: [java, generic-type]
             ClassParameter<Integer> cp = new ClassParameter<Integer>();  
             Integer[] int1 = {1,2,3,4,5};  
             //通过类参数来创建数组  
-	        Integer[] int2=cp.func(int1);  
-    	    //通过方法参数来创建数组  
-    	    Integer[] int3=MethodParameter.func(int1);  
-     	    //打印结果  
-           	System.out.println(Arrays.toString(int2));  
+            Integer[] int2=cp.func(int1);  
+            //通过方法参数来创建数组  
+            Integer[] int3=MethodParameter.func(int1);  
+            //打印结果  
+            System.out.println(Arrays.toString(int2));  
             System.out.println(Arrays.toString(int3));  
         }  
     }  
