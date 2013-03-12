@@ -2,7 +2,7 @@
 layout: post
 title: "jQuery插件shadowbox体验"
 description: ""
-category: 前端
+category: fe
 subhead: ''
 tags: [shadowbox,  jquery,  web,  javascript]
 

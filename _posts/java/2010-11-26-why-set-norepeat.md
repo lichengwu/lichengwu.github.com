@@ -75,7 +75,7 @@ java.lnag.Object中对hashCode的约定：
 
 在HashSet中，基本的操作都是有HashMap底层实现的，因为HashSet底层是用HashMap存储数据的。当向HashSet中添加元素的时候，首先计算元素的hashcode值，然后用这个（元素的hashcode）%（HashMap集合的大小）+1计算出这个元素的存储位置，如果这个位置位空，就将元素添加进去；如果不为空，则用equals方法比较元素是否相等，相等就不添加，否则找一个空位添加。
 
-会后，附赠HashSet源码中文注释版,摘自javaeye：http://xifangyuhui.javaeye.com/blog/798796
+最后，附赠HashSet源码中文注释版,摘自javaeye：http://xifangyuhui.javaeye.com/blog/798796
 
     public class HashSet<E>
             extends AbstractSet<E>
