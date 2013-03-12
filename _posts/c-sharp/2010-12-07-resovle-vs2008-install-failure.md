@@ -14,10 +14,10 @@ tags: [.net, vs2008]
 
 ![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps73405d6c.png)
  
-在安装VS Web创作组件时发生了异常，致使其它的组件也不能安装。很是纳闷，求助网络，得到解决方案
-解决方案： 
-　　在安装DVD的/WCU/WebDesignerCore文件夹中找到了“Visual Studio Web 创作组件”的安装程序，将其复制到硬盘上并解压缩，例如加压至A文件夹。然后找到OFFICE2007安装包，解压，找到里面的office.zh-cn，直接将整个文件夹COPY至A文件夹中，然后点击SETUP,则，此组件就能正常安装了。具体原因不明，可能是微软里面的OFFICE安装包不是最新版本。
+在安装VS Web创作组件时发生了异常，致使其它的组件也不能安装。很是纳闷，求助网络，得到解决方案。
 
+#### 解决方案： 
+在安装DVD的/WCU/WebDesignerCore文件夹中找到了“Visual Studio Web 创作组件”的安装程序，将其复制到硬盘上并解压缩，例如加压至A文件夹。然后找到OFFICE2007安装包，解压，找到里面的office.zh-cn，直接将整个文件夹COPY至A文件夹中，然后点击SETUP,则，此组件就能正常安装了。具体原因不明，可能是微软里面的OFFICE安装包不是最新版本。
 
 原文地址：http://www.cnblogs.com/yank/archive/2009/03/07/1405487.html
 
