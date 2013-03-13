@@ -16,15 +16,15 @@ performance.
 
 Let's have a look at some of the CMS logs generated with 1.4.2\_10:
 
-**39.910: [GC 39.910: [ParNew: 261760K-\>0K(261952K), 0.2314667 secs]
-262017K-\>26386K(1048384K), 0.2318679 secs]**
+**39.910: \[GC 39.910: \[ParNew: 261760K-\>0K(261952K), 0.2314667 secs\]
+262017K-\>26386K(1048384K), 0.2318679 secs\]**
 
 Young generation (ParNew) collection. Young generation capacity is
 261952K and after the collection its occupancy drops down from 261760K
 to 0. This collection took 0.2318679 secs.
 
-**40.146: [GC [1 CMS-initial-mark: 26386K(786432K)] 26404K(1048384K),
-0.0074495 secs]**
+**40.146: \[GC \[1 CMS-initial-mark: 26386K(786432K)\] 26404K(1048384K),
+0.0074495 secs\]**
 
 Beginning of tenured generation collection with CMS collector. This is
 initial Marking phase of CMS where all the objects directly reachable
@@ -34,19 +34,19 @@ stopped.
 Capacity of tenured generation space is 786432K and CMS was triggered at
 the occupancy of 26386K.
 
-**40.154: [CMS-concurrent-mark-start]**
+**40.154: \[CMS-concurrent-mark-start\]**
 
 Start of concurrent marking phase. 
  In Concurrent Marking phase, threads stopped in the first phase are
 started again and all the objects transitively reachable from the
 objects marked in first phase are marked here.
 
-**40.683: [CMS-concurrent-mark: 0.521/0.529 secs]**
+**40.683: \[CMS-concurrent-mark: 0.521/0.529 secs\]**
 
 Concurrent marking took total 0.521 seconds cpu time and 0.529 seconds
 wall time that includes the yield to other threads also.
 
-**40.683: [CMS-concurrent-preclean-start]**
+**40.683: \[CMS-concurrent-preclean-start\]**
 
 Start of precleaning. 
  Precleaning is also a concurrent phase. Here in this phase we look at
@@ -56,14 +56,14 @@ doing the concurrent marking in the previous concurrent marking phase.
 By rescanning those objects concurrently, the precleaning phase helps
 reduce the work in the next stop-the-world “remark” phase.
 
-**40.701: [CMS-concurrent-preclean: 0.017/0.018 secs]**
+**40.701: \[CMS-concurrent-preclean: 0.017/0.018 secs\]**
 
 Concurrent precleaning took 0.017 secs total cpu time and 0.018 wall
 time.
 
-**40.704: [GC40.704: [Rescan (parallel) , 0.1790103 secs]40.883: [weak
-refs processing, 0.0100966 secs] [1 CMS-remark: 26386K(786432K)]
-52644K(1048384K), 0.1897792 secs]**
+**40.704: \[GC40.704: \[Rescan (parallel) , 0.1790103 secs\]40.883: \[weak
+refs processing, 0.0100966 secs\] \[1 CMS-remark: 26386K(786432K)\]
+52644K(1048384K), 0.1897792 secs\]**
 
 Stop-the-world phase. This phase rescans any residual updated objects in
 CMS heap, retraces from the roots and also processes Reference objects.
@@ -71,20 +71,20 @@ Here the rescanning work took 0.1790103 secs and weak reference objects
 processing took 0.0100966 secs. This phase took total 0.1897792 secs to
 complete.
 
-**40.894: [CMS-concurrent-sweep-start]**
+**40.894: \[CMS-concurrent-sweep-start\]**
 
 Start of sweeping of dead/non-marked objects. Sweeping is concurrent
 phase performed with all other threads running.
 
-**41.020: [CMS-concurrent-sweep: 0.126/0.126 secs]**
+**41.020: \[CMS-concurrent-sweep: 0.126/0.126 secs\]**
 
 Sweeping took 0.126 secs.
 
-**41.020: [CMS-concurrent-reset-start]**
+**41.020: \[CMS-concurrent-reset-start\]**
 
 Start of reset.
 
-**41.147: [CMS-concurrent-reset: 0.127/0.127 secs]**
+**41.147: \[CMS-concurrent-reset: 0.127/0.127 secs\]**
 
 In this phase, the CMS data structures are reinitialized so that a new
 cycle may begin at a later time. In this case, it took 0.127 secs.
@@ -92,10 +92,10 @@ cycle may begin at a later time. In this case, it took 0.127 secs.
 This was how a normal CMS cycle runs. Now let us look at some other CMS
 log entries:
 
-**197.976: [GC 197.976: [ParNew: 260872K-\>260872K(261952K), 0.0000688
-secs]197.976: [CMS197.981: [CMS-concurrent-sweep: 0.516/0.531 secs]
- (concurrent mode failure): 402978K-\>248977K(786432K), 2.3728734 secs]
-663850K-\>248977K(1048384K), 2.3733725 secs]**
+**197.976: \[GC 197.976: \[ParNew: 260872K-\>260872K(261952K), 0.0000688
+secs\]197.976: \[CMS197.981: \[CMS-concurrent-sweep: 0.516/0.531 secs\]
+ (concurrent mode failure): 402978K-\>248977K(786432K), 2.3728734 secs\]
+663850K-\>248977K(1048384K), 2.3733725 secs\]**
 
 This shows that a ParNew collection was requested, but it was not
 attempted because it was estimated that there was not enough space in
@@ -137,11 +137,11 @@ stop-the-world mark-compact collection is invoked. To get the same
 functionality with UseSerialGC you need to explicitly specify the switch
 -XX:+HandlePromotionFailure.
 
-**283.736: [Full GC 283.736: [ParNew: 261599K-\>261599K(261952K),
-0.0000615 secs] 826554K-\>826554K(1048384K), 0.0003259 secs]
+**283.736: \[Full GC 283.736: \[ParNew: 261599K-\>261599K(261952K),
+0.0000615 secs\] 826554K-\>826554K(1048384K), 0.0003259 secs\]
  GC locker: Trying a full collection because scavenge failed
- 283.736: [Full GC 283.736: [ParNew: 261599K-\>261599K(261952K),
-0.0000288 secs]**
+ 283.736: \[Full GC 283.736: \[ParNew: 261599K-\>261599K(261952K),
+0.0000288 secs\]**
 
 Stop-the-world GC happening when a JNI Critical section is released.
 Here again the young generation collection failed due to “full promotion
@@ -158,10 +158,10 @@ machines with small number of processors.
 
 Some logs showing the incremental CMS.
 
-**2803.125: [GC 2803.125: [ParNew: 408832K-\>0K(409216K), 0.5371950
-secs] 611130K-\>206985K(1048192K) icms\_dc=4 , 0.5373720 secs]\
- 2824.209: [GC 2824.209: [ParNew: 408832K-\>0K(409216K), 0.6755540 secs]
-615806K-\>211897K(1048192K) icms\_dc=4 , 0.6757740 secs]**
+**2803.125: \[GC 2803.125: \[ParNew: 408832K-\>0K(409216K), 0.5371950
+secs\] 611130K-\>206985K(1048192K) icms\_dc=4 , 0.5373720 secs\]
+ 2824.209: \[GC 2824.209: \[ParNew: 408832K-\>0K(409216K), 0.6755540 secs\]
+615806K-\>211897K(1048192K) icms\_dc=4 , 0.6757740 secs\]**
 
 Here, the scavenges took respectively 537 ms and 675 ms. In between
 these two scavenges, iCMS ran for a brief period as indicated by the
@@ -197,16 +197,16 @@ preclean' and continue precleanig until we have
 CMSScheduleRemarkEdenPenetration percentage occupancy in eden, otherwise
 we schedule 'remark' phase immediately.
 
-**7688.150: [CMS-concurrent-preclean-start]
- 7688.186: [CMS-concurrent-preclean: 0.034/0.035 secs]
- 7688.186: [CMS-concurrent-abortable-preclean-start]
- 7688.465: [GC 7688.465: [ParNew: 1040940K-\>1464K(1044544K), 0.0165840
-secs] 1343593K-\>304365K(2093120K), 0.0167509 secs]
- 7690.093: [CMS-concurrent-abortable-preclean: 1.012/1.907 secs]
- 7690.095: [GC[YG occupancy: 522484 K (1044544 K)]7690.095: [Rescan
-(parallel) , 0.3665541 secs]7690.462: [weak refs processing, 0.0003850
-secs] [1 CMS-remark: 302901K(1048576K)] 825385K(2093120K), 0.3670690
-secs]**
+**7688.150: \[CMS-concurrent-preclean-start\]
+ 7688.186: \[CMS-concurrent-preclean: 0.034/0.035 secs\]
+ 7688.186: \[CMS-concurrent-abortable-preclean-start\]
+ 7688.465: \[GC 7688.465: \[ParNew: 1040940K-\>1464K(1044544K), 0.0165840
+secs\] 1343593K-\>304365K(2093120K), 0.0167509 secs\]
+ 7690.093: \[CMS-concurrent-abortable-preclean: 1.012/1.907 secs\]
+ 7690.095: \[GC\[YG occupancy: 522484 K \(1044544 K\)\]7690.095: \[Rescan
+(parallel) , 0.3665541 secs\]7690.462: \[weak refs processing, 0.0003850
+secs\] \[1 CMS-remark: 302901K(1048576K)\] 825385K(2093120K), 0.3670690
+secs\]**
 
 In the above log, after a preclean, 'abortable preclean' starts. After
 the young generation collection, the young gen occupancy drops down from
