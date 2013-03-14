@@ -12,9 +12,6 @@ tags: [algorithm, java]
 
 提示：可以用空间换时间。
  
-具体实现代码：
-
-[github](https://github.com/lichengwu/utils/blob/master/src/mian/java/oliver/util/colloection/FastExtremeValueAccessStack.java
-)
+具体实现代码：[github](https://github.com/lichengwu/utils/blob/master/src/mian/java/oliver/util/colloection/FastExtremeValueAccessStack.java)
 
 {% include JB/setup %}
