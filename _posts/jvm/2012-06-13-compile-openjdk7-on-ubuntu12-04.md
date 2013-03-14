@@ -26,7 +26,7 @@ Mercurial是一个版本管理工具。
 
     hg fclone http://hg.openjdk.java.net/jdk7/jdk7
     
-##### 直接下载源码包[推荐] 
+##### 直接下载源码包(推荐) 
 
     # wget http://www.java.net/download/openjdk/jdk7/promoted/b147/openjdk-7-fcs-src-b147-27_jun_2011.zip
     # unzip openjdk-7-fcs-src-b147-27_jun_2011.zip

@@ -142,7 +142,7 @@ Foreach要求被历遍的对象要实现Iterable接口，由此可想而知，fo
     foo("oliver",new ArrayList(),new Object(),true,1);  
  
 参数args可以是任意多个。
-其实，在编译阶段，args是会被编译成Object [] args。
+其实，在编译阶段，args是会被编译成Object \[\] args。
   
     public transient void foo(String s, Object aobj[])  
     {  

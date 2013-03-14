@@ -16,7 +16,7 @@ tags: [spring, java, source]
 
 从上往下：
  
-**BeanFactory:BeanFactory：***Spring的Bean容器`最顶层`的接口，定义了Ioc容器的基本规范。实现这个接口的Ioc容器都会持有一些BeanDefinition和一个唯一的字符串形式的名字。
+**BeanFactory:BeanFactory：**Spring的Bean容器`最顶层`的接口，定义了Ioc容器的基本规范。实现这个接口的Ioc容器都会持有一些BeanDefinition和一个唯一的字符串形式的名字。
 
 **HierarchicalBeanFactory：**HierarchicalBeanFactory继承BeanFactory并扩展使其`支持层级结构`。getParentBeanFactory()方法或者父级BeanFactory，containsLocalBean(String name)方法查看当前BeanFactory是否包含给定名字的Bean，`不会递归想父级查找`。
 
