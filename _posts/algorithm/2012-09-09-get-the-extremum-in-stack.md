@@ -2,7 +2,7 @@
 layout: post
 title: "O(1)复杂度获得栈中的极值"
 description: ""
-category: 算法
+category: algorithm
 subhead: ''
 tags: [algorithm, java]
 
