@@ -32,7 +32,7 @@ JVM爱好者，热爱互联网，宅技术，爱看书。
 ----
 
 * [Twitter](https://twitter.com/ol_beta)
-* [GitHubt](https://github.com/lichengwu)
+* [GitHub](https://github.com/lichengwu)
 * [Facebook](http://www.facebook.com/lxw.beta)
 * [微博](http://www.weibo.com/521405674)
 * [Stackoverflow](http://stackoverflow.com/users/1125197/lichengwu)
