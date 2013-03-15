@@ -4,7 +4,7 @@ title: "晒晒我的IT路，送给在路上的人(二)——谈谈休息。"
 description: ""
 category: non-technology
 subhead: ''
-tags: [lief, exercise]
+tags: [life, exercise]
 
 ---
 
