@@ -9,9 +9,12 @@ tagline: stay hungry stay foolish
 <div style="margin:0 auto;">
   <div style="float:right; width:280px;">
     <h3>最新文章</h3>
+    <hr />
+    <ul class="tag_box inline">
 	{% for post in site.posts limit:10 %}
 	<p><a href="{{post.url}}">{{ post.title }}</a></p>
 	{% endfor %}
+	</ul>
   </div>
   <!-- content -->
   <div style="float:left;">
