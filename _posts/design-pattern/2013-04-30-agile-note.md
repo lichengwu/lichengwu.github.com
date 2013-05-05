@@ -103,6 +103,19 @@ tags: [java, design-pattern, agile]
 ---
 ##设计模式
 
-待补充...
+大多数类都是一组方法和相应的一组变量的组合，`COMMAND`模式不是这样的，它只封装了一个没有任何变量的函数。
+
+`TEMPLATE METHOD`模式使用继承来解决问题，而`STRATEGY`模式使用的则是委托。
+
+`FACADE`模式从上面施加策略，而`MEDIATOR`模式则从下面施加策略。
+
+远在真正需要`PROXY`模式或者`STAIRWAY TO　HEAVEN` 模式前，就去预测对于它们的需要是非常有诱惑力的，但是这个不是一个好主意。
+
+`VISITOR`模式系列允许在不更改现有类层次结构的情况下向其中增加新方法。`双重分发`(dual dispatch)技术是VISITOR的核心机制。
+
+如果一个应用程序中存在有需要`以多种不同的方式进行解释的数据结构`，就可以使用VISITOR模式。
+
+
+
 
 {% include JB/setup %}
