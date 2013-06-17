@@ -30,7 +30,7 @@ Garbage First(G1)致力于在多CPU和大内存服务器上对垃圾收集提供
 
 当region被填满后，分配内存的线程会重新选择一个新的region。空region被组织到一个linked list里面，这样可以快速找到新的region。
 
-对于大对象的分配不是在TLABs进行的，而是在TLABs之外。当一个对象的大小超过region的3/4的时候，这个对象被认为是巨大的(humongous )。巨大的对象被分配到特殊的区域(heap regions )。这些区域只包含巨大对象(humongous object )。
+对于大对象的分配不是在TLABs进行的，而是在TLABs之外。当一个对象的大小超过region的50%的时候，这个对象被认为是巨大的(humongous )。巨大的对象被分配到特殊的区域(heap regions )。这些区域只包含巨大对象(humongous object )。
 
 #### 执行过程：
 
