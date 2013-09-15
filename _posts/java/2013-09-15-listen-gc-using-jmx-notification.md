@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "利用JMX的Notifications监听GC"
-description: ""
+description: "Notification，GarbageCollectionNotificationInfo"
 category: java
 subhead: ''
 tags: [java, jvm, gc, G1]
