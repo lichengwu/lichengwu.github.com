@@ -46,5 +46,8 @@ tags: [linux, shell]
 
 #### 删除自动启动的服务
     sudo update-rc.d -f mysql remove 
+   
+#### TOP线程模式
+    top -H
 
 {% include JB/setup %}
