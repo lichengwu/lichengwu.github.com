@@ -50,4 +50,7 @@ tags: [linux, shell]
 #### TOP线程模式
     top -H
 
+#### 查看线程启动时间
+    ps -p {PID} -o lstart
+
 {% include JB/setup %}
