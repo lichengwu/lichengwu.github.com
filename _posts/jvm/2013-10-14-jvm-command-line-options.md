@@ -12,7 +12,7 @@ tags: [java, jvm, hotspot]
 <table class="table table-bordered table-striped table-condensed">
    <tr>
       <th>选项</th>
-      <th>type</th>
+      <th>类型</th>
       <th>默认值</th>
       <th>备注</th>
    </tr>
@@ -41,22 +41,22 @@ tags: [java, jvm, hotspot]
       <td>CMS进行n次full gc后进行一次压缩。如果n=0,每次full gc后都会进行碎片压缩。如果n=0,每次full gc后都会进行碎片压缩</td>
    </tr>
    <tr>
-      <td>-XX:+CMSIncrementalMode</td>
+      <td>–XX:+CMSIncrementalMode</td>
       <td>boolean</td>
       <td>false</td>
       <td>并发收集递增进行，周期性把cpu资源让给正在运行的应用</td>
    </tr>
    <tr>
-      <td>-XX:+CMSIncrementalPacing</td>
+      <td>–XX:+CMSIncrementalPacing</td>
       <td>boolean</td>
       <td>false</td>
       <td>根据应用程序的行为自动调整每次执行的垃圾回收任务的数量</td>
    </tr>
    <tr>
-      <td>-XX:ParallelGCThreads=n</td>
+      <td>–XX:ParallelGCThreads=n</td>
       <td>uintx</td>
-      <td>(ncpus <= 8) ? ncpus : 3 + ((ncpus * 5) / 8)</td>
-      <td>并发垃圾回收线程数</td>
+      <td></td>
+      <td>并发回收线程数量：(ncpus &lt;= 8) ? ncpus : 3 + ((ncpus * 5) / 8)</td>
    </tr>
    <tr>
       <td>-XX:CMSIncrementalDutyCycleMin=n</td>
@@ -75,27 +75,6 @@ tags: [java, jvm, hotspot]
       <td>uintx</td>
       <td>jdk5 默认是68% jdk6默认92%</td>
       <td>当老年代内存使用达到n%,开始回收。`CMSInitiatingOccupancyFraction = (100 - MinHeapFreeRatio) + (CMSTriggerRatio * MinHeapFreeRatio / 100)`</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
    </tr>
 </table>
 
