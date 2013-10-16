@@ -80,7 +80,7 @@ tags: [java, jvm, hotspot]
       <td>-XX:CMSMaxAbortablePrecleanTime=n</td>
       <td>intx</td>
       <td>5000</td>
-      <td>在CMS的preclean阶段开始前，等待minor gc的最大时间。[see here](https://blogs.oracle.com/jonthecollector/entry/did_you_know)</td>
+      <td>在CMS的preclean阶段开始前，等待minor gc的最大时间。[see here](https://blogs.oracle.com/jonthecollector/entry/did_you_know) </td>
    </tr>
 </table>
 
