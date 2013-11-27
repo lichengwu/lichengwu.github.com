@@ -82,6 +82,12 @@ tags: [java, jvm, hotspot]
       <td>5000</td>
       <td>在CMS的preclean阶段开始前，等待minor gc的最大时间。[see here](https://blogs.oracle.com/jonthecollector/entry/did_you_know) </td>
    </tr>
+     <tr>
+      <td>-XX:+UseBiasedLocking </td>
+      <td>boolean</td>
+      <td>true</td>
+      <td>Enables a technique for improving the performance of uncontended synchronization. An object is "biased" toward the thread which first acquires its monitor via a `monitorenter` bytecode or synchronized method invocation; subsequent monitor-related operations performed by that thread are relatively much faster on multiprocessor machines. Some applications with significant amounts of uncontended synchronization may attain significant speedups with this flag enabled; some applications with certain patterns of locking may see slowdowns, though attempts have been made to minimize the negative impact.</td>
+   </tr>
 </table>
 
 
