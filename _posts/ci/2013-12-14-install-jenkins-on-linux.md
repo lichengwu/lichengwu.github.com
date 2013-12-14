@@ -137,16 +137,11 @@ For example, to only listen for requests from localhost, you could use: --httpLi
 ##### ANSI color    
 安装AnsiColor插件：[AnsiColor](https://wiki.jenkins-ci.org/display/JENKINS/AnsiColor+Plugin)
 
-#####执行远程build脚本
+##### 执行远程build脚本
+
 jenkins要以admin执行远程机器的build的脚本，而admin账户禁止登录，但是有一个帐号有admin的权限，所以采用ssh方式远程执行命令。
-提供一个python脚本，解决：
- 
-1.自动输入密码
+提供一个python脚本，解决:模拟终端(pseudo-tty);用`nohup`,解决ssh断开，程序退出;自动输入密码。
 
-2.模拟终端(pseudo-tty)
-
-3.用`nohup`,解决ssh断开，程序退出
- 
  <script src="https://gist.github.com/lichengwu/7960277.js" />
 
 
