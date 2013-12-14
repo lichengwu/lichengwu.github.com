@@ -78,12 +78,58 @@ For example, to only listen for requests from localhost, you could use: --httpLi
 </tbody></table>
   
 编写一个启动脚本：
-<script src="https://gist.github.com/lichengwu/7959859.js"></script>  
-   
+
+    #!/bin/sh
+     
+    DESC="Jenkins CI Server"
+    NAME=jenkins
+    PIDFILE=/var/run/$NAME.pid
+    RUN_AS=admin
+    COMMAND=JAVA_TOOL_OPTIONS=-Dfile.encoding=GBK /opt/taobao/java64/bin/java -jar -server -Xms2048m -Xmx2048m -XX:NewSize=320m -XX:MaxNewS
+    ize=320m -XX:PermSize=128m -XX:MaxPermSize=256m /usr/lib/jenkins/jenkins.war  --httpPort=9000
+    #COMMAND=/opt/taobao/java/bin/java -jar /home/jenkins/jenkins.war
+     
+    d_start() {
+            start-stop-daemon --start --quiet --background --make-pidfile --pidfile $PIDFILE --chuid $RUN_AS --exec $COMMAND
+    }
+     
+    d_stop() {
+            start-stop-daemon --stop --quiet --pidfile $PIDFILE
+            if [ -e $PIDFILE ]
+                    then rm $PIDFILE
+            fi
+    }
+     
+    case $1 in
+            start)
+            echo -n "Starting $DESC: $NAME"
+            d_start
+            echo "."
+            ;;
+            stop)
+            echo -n "Stopping $DESC: $NAME"
+            d_stop
+            echo "."
+            ;;
+            restart)
+            echo -n "Restarting $DESC: $NAME"
+            d_stop
+            sleep 1
+            d_start
+            echo "."
+            ;;
+            *)
+            echo "usage: $NAME {start|stop|restart}"
+            exit 1
+            ;;
+    esac
+     
+    exit 0
 
 #### 遇到的一些问题
 
 ##### 中文乱码
+
 在启动参数加入：
 
     JAVA_TOOL_OPTIONS=-Dfile.encoding=GBK 
@@ -99,7 +145,7 @@ jenkins要以admin执行远程机器的build的脚本，而admin账户禁止登�
  - 模拟终端(pseudo-tty)
  - 用`nohup`,解决ssh断开，程序退出
  
- <script src="https://gist.github.com/lichengwu/7960277.js"></script>
+ <script src="https://gist.github.com/lichengwu/7960277.js" />
 
 
 {% include JB/setup %}
