@@ -88,11 +88,11 @@ ArrayList&lt;Integer&gt;中有两个字段：
      */
     private int size;
 
-Object Header占4byte，Pinter占4byte，一个int字段(size)占4byte，elementData数组本身占12(4+4+4)，数组中10个Integer对象占10×16。所以整个集合空间大小为4+4+4+12+160=184byte。
+Object Header占4byte，Pointer占4byte，一个int字段(size)占4byte，elementData数组本身占12(4+4+4)，数组中10个Integer对象占10×16。所以整个集合空间大小为4+4+4+12+160=184byte。
 
 如果我们用int[]代替集合呢，12+4×10=52byte，对其后56byte。
 
-集合跟数组的比例是184:65，超过3:1了！
+集合跟数组的比例是184:56，超过3:1了！
 
 所以我们的第三个建议是：
 
