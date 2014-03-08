@@ -26,16 +26,16 @@ GC相关
 
 ### CMS
 
-1.  理解CMS日志：[https://blogs.oracle.com/poonam/entry/understanding\_cms\_gc\_logs](https://blogs.oracle.com/poonam/entry/understanding_cms_gc_logs)
-2.  Concurrent Mode精辟解释，同时也是官方版：[https://blogs.oracle.com/jonthecollector/entry/what\_the\_heck\_s\_a](https://blogs.oracle.com/jonthecollector/entry/what_the_heck_s_a)
-3.  CMS GC背后一些技术细节：[https://blogs.oracle.com/jonthecollector/entry/did\_you\_know](https://blogs.oracle.com/jonthecollector/entry/did_you_know)
+1.  理解CMS日志：[https://blogs.oracle.com/poonam/entry/understanding_cms_gc_logs](https://blogs.oracle.com/poonam/entry/understanding_cms_gc_logs)
+2.  Concurrent Mode精辟解释，同时也是官方版：[https://blogs.oracle.com/jonthecollector/entry/what_the_heck_s_a](https://blogs.oracle.com/jonthecollector/entry/what_the_heck_s_a)
+3.  CMS GC背后一些技术细节：[https://blogs.oracle.com/jonthecollector/entry/did_you_know](https://blogs.oracle.com/jonthecollector/entry/did_you_know)
 
 ### G1
 
 1.  G1论文，G1的模型好早就提出来了，最近才真正实现。[http://www.oracle.com/technetwork/server-storage/ts-5419-159484.pdf](http://www.oracle.com/technetwork/server-storage/ts-5419-159484.pdf)
-2.  官方G1教程[原理，与CMS对比][http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html)
+2.  官方G1教程\[原理，与CMS对比\][http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html)
 3.  官方G1介绍 [http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html](http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html)
-4.  理解G1日志 [https://blogs.oracle.com/poonam/entry/understanding\_g1\_gc\_logs](https://blogs.oracle.com/poonam/entry/understanding_g1_gc_logs)
+4.  理解G1日志 [https://blogs.oracle.com/poonam/entry/understanding_g1_gc_logs](https://blogs.oracle.com/poonam/entry/understanding_g1_gc_logs)
 
 build OopenJDK
 --------------
@@ -59,7 +59,7 @@ linux编译OpenJDK比较简单：[http://blog.lichengwu.cn/jvm/2012/06/13/compil
 
 1.  利用VisualVM监视远程JVM: [http://blog.lichengwu.cn/jvm/2011/11/17/visual-mv-monitoring-jvm/](http://blog.lichengwu.cn/jvm/2011/11/17/visual-mv-monitoring-jvm/)
 2.  利用JMX的Notifications监听GC:[http://blog.lichengwu.cn/java/2013/09/15/listen-gc-using-jmx-notification/](http://blog.lichengwu.cn/java/2013/09/15/listen-gc-using-jmx-notification/)
-3.  JMX监控[官方]：[http://docs.oracle.com/javase/1.5.0/docs/guide/management/agent.html](http://docs.oracle.com/javase/1.5.0/docs/guide/management/agent.html)
+3.  JMX监控\[官方\]：[http://docs.oracle.com/javase/1.5.0/docs/guide/management/agent.html](http://docs.oracle.com/javase/1.5.0/docs/guide/management/agent.html)
 
 源码阅读
 --------
@@ -71,8 +71,8 @@ linux编译OpenJDK比较简单：[http://blog.lichengwu.cn/jvm/2012/06/13/compil
 技术优化
 --------
 
-1.  从JVM看Synchronization 和 Object Locking[官方] ：[https://wikis.oracle.com/display/HotSpotInternals/Synchronization](https://wikis.oracle.com/display/HotSpotInternals/Synchronization)
-2.  偏向锁是JVM内部一个小优化，因为一个CAS原语在JVM看来还是比较浪费的，JVM会把锁偏向于第一个获得锁的线程，节省锁开销：[https://blogs.oracle.com/dave/entry/biased\_locking\_in\_hotspot](https://blogs.oracle.com/dave/entry/biased_locking_in_hotspot)
+1.  从JVM看Synchronization 和 Object Locking\[官方\] ：[https://wikis.oracle.com/display/HotSpotInternals/Synchronization](https://wikis.oracle.com/display/HotSpotInternals/Synchronization)
+2.  偏向锁是JVM内部一个小优化，因为一个CAS原语在JVM看来还是比较浪费的，JVM会把锁偏向于第一个获得锁的线程，节省锁开销：[https://blogs.oracle.com/dave/entry/biased_locking_in_hotspot](https://blogs.oracle.com/dave/entry/biased_locking_in_hotspot)
 3.  fork-join JDK7增强了fork-join模型支持，这个未来，先了解一下吧：[http://www.ibm.com/developerworks/cn/java/j-jtp11137.html](http://www.ibm.com/developerworks/cn/java/j-jtp11137.html)
 4.  栈上替换(on stack replacement),JVM运行时优化： [http://xmlandmore.blogspot.com/2012/06/on-stack-replacement-in-hotspot-jvm.html](http://xmlandmore.blogspot.com/2012/06/on-stack-replacement-in-hotspot-jvm.html)
 
