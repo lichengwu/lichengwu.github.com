@@ -8,6 +8,10 @@ tags: [java, jvm, hotspot]
 
 ---
 
+**说明：**
+	
+JVM命令行参数分为三种类型：标准选项(Java Virtual Machine Specification里定义的参数)，非标准选项(以-X为前缀，不强制JVM实现)，非稳定选项(以-XX为前缀，可能在某些版本被移除)
+
 ###CMS相关
 <table class="table table-bordered table-striped table-condensed">
    <tr>
@@ -96,6 +100,24 @@ tags: [java, jvm, hotspot]
       Tiered compilation, introduced in Java SE 7, brings client startup speeds to the server VM. Normally, a server VM uses the interpreter to collect profiling information about methods that is fed into the compiler. In the tiered scheme, in addition to the interpreter, the client compiler is used to generate compiled versions of methods that collect profiling information about themselves. Since the compiled code is substantially faster than the interpreter, the program executes with greater performance during the profiling phase. In many cases, a startup that is even faster than with the client VM can be achieved because the final code produced by the server compiler may be already available during the early stages of application initialization. The tiered scheme can also achieve better peak performance than a regular server VM because the faster profiling phase allows a longer period of profiling, which may yield better optimization.
       </td>
    </tr>
+   <tr>
+   	<td>-client</td>
+   	<td></td>
+   	<td></td>
+   	<td>JVM客户端模式启动</td>
+   <tr>
+   <tr>
+   	<td>-server</td>
+   	<td></td>
+   	<td></td>
+   	<td>JVM服务器模式启动</td>
+   <tr>
+   <tr>
+   	<td>-d64</td>
+   	<td></td>
+   	<td></td>
+   	<td>加载64位HotSpot VM而不是默认的32位</td>
+   <tr>
 </table>
 
 
