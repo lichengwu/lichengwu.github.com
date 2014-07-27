@@ -7,7 +7,9 @@ subhead: ''
 tags: [java, jvm, 内存]
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/37390750" width="800" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+贴个链接吧，slideshare：
+
+[http://www.slideshare.net/ol_beta/java-37390750](http://www.slideshare.net/ol_beta/java-37390750)
 
 
 
