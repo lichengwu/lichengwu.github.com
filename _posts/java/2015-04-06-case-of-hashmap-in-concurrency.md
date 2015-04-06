@@ -156,7 +156,7 @@ com.alibaba.rocketmq.common.message.MessageExt | 65151 | 6775704
         at com.taobao.trip.atw.result.PriceMergerProxy.mergeOneWay(PriceMergerProxy.java:184)
         ...
 
-由于之前遇到过HashMap多线程操作导致成环形数据结构，继而get操作成死循环的教训，这里断定是HashMap问题！
+子线程都在从HashMap中get数据！由于之前遇到过HashMap多线程操作导致成环形数据结构，继而get操作成死循环的教训，这里断定是HashMap问题！
 
 ###HashMap多线程下成死循环原因
 简短的说，多线程下对HashMap的put操作，会导致内部的Entry链表形成环形数据结构。
