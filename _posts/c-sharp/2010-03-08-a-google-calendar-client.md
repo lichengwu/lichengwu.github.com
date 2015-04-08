@@ -22,7 +22,6 @@ tags: [.net,  google,  canlendar, c#]
 
 ![](http://i1298.photobucket.com/albums/ag53/lichengwu/3_zps2f93a218.png)
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/4_zpsce4a2696.png) 
 
 [下载地址](http://cid-2c8a0dc7c1eb1d71.skydrive.live.com/self.aspx/soft/GoogleCalendar.rar)
 
