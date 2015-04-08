@@ -35,7 +35,7 @@ JVM线程信息保存成功:)
 
 现场保存完毕，重启应用。
 
-##初步分析
+## 初步分析
 
 首先看下JVM线程栈信息，看看下是否有应用线程阻赛，一般情况下，如果大量线程阻赛，每个线程都持有一定量的内存，很可能导致内存吃紧，而这些阻塞的线程又没有处理完请求，占用的heap空间不能被minor gc回收掉，导致产生full gc，
 
@@ -102,7 +102,7 @@ com.alibaba.rocketmq.common.message.MessageExt | 65151 | 6775704
 至此，分析思路阻塞，需要找到新的线索。
 
 
-##通过GC日志找到新线索
+## 通过GC日志找到新线索
 
 通过上面的分析，已经找到现象：应用出现了full gc，而且伴随大量byte[]和java.util.HashMap$Entry不能回收。
 
@@ -158,7 +158,7 @@ com.alibaba.rocketmq.common.message.MessageExt | 65151 | 6775704
 
 子线程都在从HashMap中get数据！由于之前遇到过HashMap多线程操作导致成环形数据结构，继而get操作成死循环的教训，这里断定是HashMap问题！
 
-###HashMap多线程下成死循环原因
+### HashMap多线程下成死循环原因
 简短的说，多线程下对HashMap的put操作，会导致内部的Entry链表形成环形数据结构。
 首先，put操作会检查容量是否充足，如果不足，会resize内部数组。
 
@@ -209,7 +209,7 @@ com.alibaba.rocketmq.common.message.MessageExt | 65151 | 6775704
 
 为什么会出现多个线程同时操作一个HashMap？
 
-###处理逻辑
+### 处理逻辑
 
 > 主线程收到请求后，会分配4个子线程去计算结果，然后由主线程去完成对结果的合并。如果子线程处理失败或者超时，那么这个子线程的结果会被丢弃，不会被合并。
 

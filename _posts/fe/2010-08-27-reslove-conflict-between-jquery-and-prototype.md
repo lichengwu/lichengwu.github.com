@@ -45,7 +45,7 @@ tags: [jquery, prototype, easyvalidation, javascript]
     }
       
 ------
-####附录：
+#### 附录：
 
 `jQuery.noConflict()`
 

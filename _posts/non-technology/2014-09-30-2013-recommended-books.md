@@ -13,11 +13,11 @@ tags: [life,reading,book]
 
 2013年买了不少书，kindle买了一百多本电子书，纸质书也买了十几本。但真正读了的书，仅仅18本。不过也无妨，有些书本来就是用来收藏的，等以后有时间，再慢慢读。
 
-####以下是几本书，是我2013年读过的好书推荐，排名不分先后：
+#### 以下是几本书，是我2013年读过的好书推荐，排名不分先后：
 ---
 
 
-##[《写给大家看的设计书》](http://book.douban.com/subject/3323633/)
+## [《写给大家看的设计书》](http://book.douban.com/subject/3323633/)
 
 ![image](http://img3.douban.com/lpic/s24928411.jpg)
 
@@ -27,35 +27,35 @@ tags: [life,reading,book]
 
 ---
 
-##[《番茄工作法图解》](http://book.douban.com/subject/5916234/)
+## [《番茄工作法图解》](http://book.douban.com/subject/5916234/)
 ![image](http://img3.douban.com/lpic/s4599081.jpg)
 
 这是一本不错的时间管理方面的书，但书中的方法并不适用每个人。有些人喜欢把事情安排在集中的时间点，集中精力完成；其他人可能喜欢在平时的时间就完成任务。不管怎样，关于战胜拖延症，这本书给出了不错的实践。
 
 ---
 
-##[《敏捷软件开发》](http://book.douban.com/subject/1140457/)
+## [《敏捷软件开发》](http://book.douban.com/subject/1140457/)
 ![image](http://img3.douban.com/lpic/s1671095.jpg)
 
 读这本书的时候，刚好是2013年3月份，那时刚刚入职淘宝，恰好我在的团队也在实践敏捷开发。书中很多内容正好就在团队里得到了实践。每个公司和团队在开发过程中都会有自己的原则和节奏，书中的内容并不使用所有团队，甚至有些原则可能有悖于现在团队节奏和发展，但这些都不重要，重要的是理解敏捷开发，找到适合你和你的团队的原则。
 
 ---
 
-##[《编程珠玑II》](http://book.douban.com/subject/3234692/)
+## [《编程珠玑II》](http://book.douban.com/subject/3234692/)
 ![image](http://img5.douban.com/lpic/s3386147.jpg)
 
 这是一本关于算法的书，讲的不是算法的理论，而更多的是算法优化。整本书没有涉及到太多深奥的算法和晦涩的数学公式，而是从一些例子入手，确定数据结构和算法，再针对特定场景优化算法，最终达到至臻完美。
 
 ---
 
-##[《Java并发编程实战》](http://book.douban.com/subject/10484692/)
+## [《Java并发编程实战》](http://book.douban.com/subject/10484692/)
 ![image](http://img3.douban.com/lpic/s7663093.jpg)
 
 其实不用多说，关于并发编程，这本书早已是经典。记得大学时候，曾经复印过一个当时的中文版，那时只翻翻就看不下去了，一方面自己当时功力不够，无法参透本书，另一方面在于当时的翻译版本比较晦涩。这版2012翻译的新版本相对以前版本质量大大提高，推荐阅读。
 
 ---
 
-##[《看见》](http://book.douban.com/subject/20427187/)
+## [《看见》](http://book.douban.com/subject/20427187/)
 
 ![image](http://img5.douban.com/lpic/s24514758.jpg)
 
@@ -63,14 +63,14 @@ tags: [life,reading,book]
 
 ---
 
-##[《浪潮之巅》](http://book.douban.com/subject/6709783/)
+## [《浪潮之巅》](http://book.douban.com/subject/6709783/)
 ![image](http://img3.douban.com/lpic/s6584764.jpg)
 
 感叹吴军博士能以一人之力，写出那么多在互联网风头浪尖的大公司兴衰。不能不说，作者善于讲故事，对于一个技术出身的人，文字功底太好了。而且作为行业内的一份子，不得不被这些耳熟能详的大公司发展历史所吸引，一边感叹大公司的衰落，一边盼望新浪潮的来临。
 
 ---
 
-##[《大数据时代》](http://book.douban.com/subject/20429677/)
+## [《大数据时代》](http://book.douban.com/subject/20429677/)
 
 ![image](http://img3.douban.com/lpic/s24574862.jpg)
 

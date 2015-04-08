@@ -49,7 +49,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:index 
 分页索引，`定义在pg:pager里面` 
-####格式： 
+#### 格式： 
 
 >id="value" 
 >export="expression" 
@@ -67,7 +67,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:prev 
 用在pg:index里面，生成上一页链接 
-####格式： 
+#### 格式： 
 
 >id="value" 
 >ifnull="true|false"//是否总是显示上一页链接，没有上一页的时候也显示！ 
@@ -77,7 +77,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:page 
 用在pg:index里面，生成当前页码链接或者导出当前页 
-####格式： 
+#### 格式： 
 
 >id="value" 
 >export="expression" 

@@ -10,7 +10,7 @@ tags: [ubuntu, linux, ReText]
 
 ReText是一个用python写的markdown编辑器，底层使用了Qt类库。无法显示图标的原因是Qt的一个bug。但是这个问题很容易解决。
 
-####ReText安装
+#### ReText安装
 
     sudo add-apt-repository ppa:mitya57
     sudo apt-get update

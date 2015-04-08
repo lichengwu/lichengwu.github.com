@@ -31,7 +31,7 @@ encode(String s) 和 decode(String s)方法会采用系统的默认编码，已�
      
 url encode和decode在前端js也有很好的支持，这样能方便我们处理请求和响应。
 
-####2.JSP乱码
+#### 2.JSP乱码
 
 在基于框架开发中，JSP乱码基本上由框架解决，但是有些地方我们的编码需要统一。
 

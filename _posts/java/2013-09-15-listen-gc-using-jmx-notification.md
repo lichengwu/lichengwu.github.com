@@ -10,7 +10,7 @@ tags: [java, jvm, gc, G1]
 
 在Java 7 update 4之前，用java代码监听GC运行情况是不可能的，Java 7 update 4之后，每个垃圾收集器都提供了通知机制，通过监听GarbageCollectorMXBean，可以得到GC完成之后的详细信息。
 
-####用法：
+#### 用法：
 
       Notification notif;
 
@@ -56,7 +56,7 @@ tags: [java, jvm, gc, G1]
    </tr>
 </table>
 
-####GC详细信息：
+#### GC详细信息：
 
 <table class="table table-bordered table-striped table-condensed">
    <tr>
@@ -91,7 +91,7 @@ tags: [java, jvm, gc, G1]
    </tr>
 </table>
 
-####内存使用情况：
+#### 内存使用情况：
 
 <table class="table table-bordered table-striped table-condensed">
      <tr>
@@ -140,7 +140,7 @@ Below is a picture showing an example of a memory pool:
 
 并且gc的详细信息中的耗时也没有细分`停顿时间`和`并发时间`，相信这个数据更为重要。
         
-####实例：
+#### 实例：
 
 <script src="https://gist.github.com/lichengwu/6567273.js"></script>        
 

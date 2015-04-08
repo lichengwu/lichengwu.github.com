@@ -15,7 +15,7 @@ tags: [java,  concurrency]
 * ####CyclicBarrier
 * ####Exchanger 
 
-###CountDownLatch
+### CountDownLatch
 CountDownLatch可以使一个或多个线程等待一组事件发生。在CountDownLatch内部维护一个计数器(被初始化为一个正整数)，表示需要等待事件的数量。`countDown()`方法减少一个事件数量，`await()`将等待直到计数器为零的时候，才继续执行await后面的代码。如果计数器不为零，那么await将一直会阻塞等待直到计数器为零，或者阻赛线程中断/超时。
 
     @Test
@@ -70,7 +70,7 @@ CountDownLatch可以使一个或多个线程等待一组事件发生。在CountD
     Thread[Thread-4,5,main] start at : 1359782125125
     total finish cost : 1ms
 
-###Semaphore 
+### Semaphore 
 Semaphore在内部持有一个虚拟的许可组(初始化的时候可以设置虚拟组的数量)，当执行某个操作的时候，调用`acquire`获得许可，在操作执行完成后调用`release`释放许可。如果没有许可可用，那么`acquire`方法会一直阻赛直到有许可可用为止，或者执行获取许可的线程终端或阻赛。
 
 Semaphore可以用来控制某种资源的使用数量，或者同时使用特定资源的数量。利用这个特性，可以实现某种资源的资源池或者对容器实加边界。
@@ -166,7 +166,7 @@ Semaphore可以用来控制某种资源的使用数量，或者同时使用特�
     ….
 在这个例子中，生产者向集合中添加元素，消费者删除元素，因为生产者的速度大于消费者，所以当集合中元素等于5的时候，就必须等待消费者删除一个元素后才能再继续添加，从打印结果可以看出这点。
 
-###CyclicBarrier
+### CyclicBarrier
 CyclicBarrier和CountDownLatch有些类似，它阻塞一组线程直到某个事件发生。可以把CyclicBarrier理解成一个障碍，当所有线程都到达这个"障碍"的时候，才能继续下个事件。如果所有线程到达barrier处，barrier打开释放所有线程，并且barrier可以继续使用。如果`await`方法超时，或者被中断，那么认为barrier被打破，所有在await上阻塞的线程都将抛出`BrokenBarrierException`。
 
     @Test

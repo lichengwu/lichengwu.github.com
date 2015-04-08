@@ -7,7 +7,7 @@ subhead: ''
 tags: [java, jdk,  jdk8]
 ---
 
-#方法扩展
+# 方法扩展
 jdk8为接口(Interface)提供了默认方法支持，使用`default`关键字，就可以声明默认方法。所有实现类都可以访问默认方法，而且也可以重写默认方法。
 另外，jdk8接口也支持默认静态方法，为我们写工具类提供一种选择(以前写工具类都是声明一个final的类，并且声明默认构造函数为private)。
 
@@ -34,7 +34,7 @@ jdk8为接口(Interface)提供了默认方法支持，使用`default`关键字�
     MyInterface.utilMethod();//utilMethod
 
 
-#Lambda表达式
+# Lambda表达式
 lambda表达式为java提供闭包功能，替换原来单一的抽象方法。
 
 lambda表达式的底层实现就是上面介绍的`方法扩展`。每个lambda表达式都是一个绑定特定类型的默认方法。
@@ -91,7 +91,7 @@ personList.sort((a, b) -> a.getName().compareTo(b.getName()));
 ```
 如此简洁，省略了匿名类，return和方法声明的`{}`，一行代码搞定。(a, b)表示一个需要两个参数的方法声明，这里没有指定参数类型，lamdba能自动判断。`->`后面是方法体。
 
-##Functional Interfaces
+## Functional Interfaces
 Jdk8中lambda是如何实现的？每个lambda表达式都会匹配一个特殊类型的接口(Interface)，在Jdk8规范中，这个特殊的接口叫`Functional Interface`。这个接口需要声明一个`@FunctionalInterface`注解。`Functional Interface`只能有一个抽象方法，但是可以有多个默认方法。如果声明多个抽象方法，编译器会报错。
 
 下面是具体例子：
@@ -111,16 +111,16 @@ Jdk8中lambda是如何实现的？每个lambda表达式都会匹配一个特殊�
 
 
 
-##绑定方法和构造函数引用
+## 绑定方法和构造函数引用
 `Functional Interface`中的抽象方法除了自己实现外，还可以指向方法和构造函数。方法引用通过关键字`::`来实现。需要注意的是，被绑定的方法参数要和`Functional Interface`中的抽象方法参数列表匹配。
 
-###绑定静态方法：
+### 绑定静态方法：
 通过`类名::静态方法名`能访问类的静态方法。
 
     ToStringFunction<Person> ps = String::valueOf; //static method
 
 
-###构造函数：
+### 构造函数：
 构造函数通过`类名::new`来访问。
 
     @FunctionalInterface
@@ -132,7 +132,7 @@ Jdk8中lambda是如何实现的？每个lambda表达式都会匹配一个特殊�
     Person person = factory.create("oliver", 25);
     System.out.println(person);
 
-###绑定实例方法：
+### 绑定实例方法：
 实例方法和静态方法一样，通过`类名::方法名`来访问。下面的java.util.function.ToIntFunction是jdk8内置Functional Interface。
 
     ToIntFunction<Person> ps = Person::getAge;//instance method
@@ -140,7 +140,7 @@ Jdk8中lambda是如何实现的？每个lambda表达式都会匹配一个特殊�
     System.out.println(ps.applyAsInt(pp));25
 
 
-##Lambda作用域
+## Lambda作用域
 
 在Lambda中如何访问表达式外部的变量？
 
@@ -182,10 +182,10 @@ Jdk8中lambda是如何实现的？每个lambda表达式都会匹配一个特殊�
     }
 
 
-##内建Functional Interfaces
+## 内建Functional Interfaces
 Jdk8提供了丰富的内建Functional Interfaces，放在`java.util.function`包下面，下面举几个常用的类：
 
-###Predicate
+### Predicate
 Predicate根据一个特定类型参数判断返回一个bool，一般用于逻辑计算。
 
     Predicate<String> hasLength = (str) -> str.length() > 0;
@@ -194,26 +194,26 @@ Predicate根据一个特定类型参数判断返回一个bool，一般用于逻�
     System.out.println(isEmpty.test("")); //false
     System.out.println(isEmpty.test(null)); //false
 
-###Function
+### Function
 Function接收一个参数并返回一个结果，主要用于把多个方法链接起来：
 
     Function<String, String> s1 = String::valueOf;
     Function<String, String> s2 = String::valueOf;
     Function<String, String> all = s1.andThen(s2);
 
-###Supplier
+### Supplier
 Supplier根据给定类型，返回一个实例。不接受任何参数：
 
     Supplier<Person> supplier = Person::new;
     Person person = supplier.get();
 
-###Consumer
+### Consumer
 Consumer有点像Function，但是Consumer只有输入参数，没有返回值。
 
     Consumer<Person> print = System.out::println;
     print.accept(person);
 
-###Optional
+### Optional
 Optional不是Functional Interfaces，而是一个容器工具，用来避免`NullPointerException`。一般用于方法调用的返回结果，把结果内容放在这个容器内。`isPresent()`方法用来测试容器中的内容是否为`null`。
 
     Optional<Integer> opt1 = Optional.of(10);
@@ -222,13 +222,13 @@ Optional不是Functional Interfaces，而是一个容器工具，用来避免`Nu
     System.out.println(opt1.filter((i) -> i > 11).isPresent()); //false
     System.out.println(opt1.filter((i) -> i > 11).get()); //java.util.NoSuchElementException: No value present
 
-#链式API
+# 链式API
 Stream采用链式对集合进行操作，包括过滤，排序，迭代，去重等。
 
     List<Integer> list = Arrays.asList(77, 1, 4, 5, 2, 77, 22);
     list.stream().distinct().filter((s) -> s > 10).sorted().forEach(System.out::println);
 
-###并发链式API
+### 并发链式API
 并发Stream采用多线程方式对集合进行操作，包括过滤，排序，迭代，去重等。
 
     public void testParallelStream() {
@@ -251,10 +251,10 @@ Stream采用链式对集合进行操作，包括过滤，排序，迭代，去�
     parallelStream time used:295
 
 
-#Date-Time API
+# Date-Time API
 Jdk提供增强的日期和时间API，放在`java.time`包下。`java.time`基于国际便准(IOS)的日历系统，支持全球日历。
 
-##Clock
+## Clock
 `Clock`用于方法日期和时间，并且它跟时区相关。跟`System.currentTimeMillis()`一样，可以访问当前时间的毫秒。`Clock`中用瞬间`Instant`这里类来记录时间轴上的一个点，可以用这个类来记录应用事件。`Instant`可以用来创建`java.util.Date`对象。
 
     Clock shanghai = Clock.systemDefaultZone();
@@ -268,7 +268,7 @@ Jdk提供增强的日期和时间API，放在`java.time`包下。`java.time`基�
     System.out.println(date);
 
 
-##Timezones
+## Timezones
 时区在新API中用`ZoneId`表示。时区中定义的`偏移`能够用来转换时间日期。
 
 
@@ -280,7 +280,7 @@ Jdk提供增强的日期和时间API，放在`java.time`包下。`java.time`基�
     System.out.println(Date.from(myClock.instant())); //Fri Mar 21 21:30:07 CST 2014
     System.out.println(myClock.instant().atZone(tokyo)); //2014-03-21T22:30:07.085+09:00[Asia/Tokyo]
 
-##LocalTime
+## LocalTime
 
 `LocalTime`，顾名思义，用就记录本地时间，不带时区并且不可改变(immutable)。如：22:38:39.961
 
@@ -294,7 +294,7 @@ Jdk提供增强的日期和时间API，放在`java.time`包下。`java.time`基�
     System.out.println(ChronoUnit.MINUTES.between(shanghai, tokyo)); // 60
 
 
-##LocalDate
+## LocalDate
 `LocalDate`与`LocalTime`类似，用于记录不带时区的日期。下面展示如何创建和使用LocalDate的常用API。
 
     LocalDate now = LocalDate.now();
@@ -306,7 +306,7 @@ Jdk提供增强的日期和时间API，放在`java.time`包下。`java.time`基�
     System.out.println(now.getMonth()); //MARCH
     System.out.println(now.getDayOfWeek()); //FRIDAY
 
-##LocalDateTime
+## LocalDateTime
 把`LocalDate`与`LocalTime`结合起来，就是LocalDateTime了，这里不再赘述，展示一下简单用法。
 
     LocalDateTime now = LocalDateTime.now();
@@ -315,7 +315,7 @@ Jdk提供增强的日期和时间API，放在`java.time`包下。`java.time`基�
     System.out.println(fest); //2014-12-01T23:59:59
     System.out.println(fest.isAfter(fest)); //false
 
-##DateTimeFormatter
+## DateTimeFormatter
 
 新的时间日期API提供了新的格式化工具`DateTimeFormatter`，对比以前的`java.text.DateFormat`，新工具的一大亮点是线程安全。用法类似：
 
