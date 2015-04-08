@@ -7,7 +7,7 @@ subhead: ''
 tags: [java,jvm,case,gc,concurrency]
 ---
 
-##现象
+## 现象
 
 最近上线一个需求，完成需求的过程对代码进行了一次重构。应用发布后半个小时左右，发现一个机器报警，load过高。登陆机器看CPU使用情况，发现load已经正常，看下CPU使用情况，发现有一个核跑满，其他CPU使用率很低。大概一个小时后，其他机器陆续报警，发现同样的问题，紧急回滚应用。
 
@@ -15,11 +15,11 @@ tags: [java,jvm,case,gc,concurrency]
 
 第一反应是JVM可能在进行full gc，因为只有一个线程跑满，其他线程被JVM暂停了。先去应用日志看下应用运行情况，果然日志已经没有任何输出。`jstat -gcutil`查看JVM内存使用情况，发现Old区使用已经100%。
 
-###摘掉服务
+### 摘掉服务
 考虑到full gc导致RT变得超长，去ateye摘掉应用注册的HSF服务，但是操作失败，整个JVM已经没有响应。
 
 
-###保留现场
+### 保留现场
 
     jmap -F -dump:format=b,file=atw.bin `jid` 
 

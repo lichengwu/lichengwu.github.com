@@ -1,34 +1,39 @@
 ---
 layout: page
-title: About the Jekyll Theme
-image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-comments: false
-modified: 2014-12-24
+title: 关于
+comments: true
+modified: 2015-04-8
 ---
+## 自我介绍
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+![image](http://i1298.photobucket.com/albums/ag53/lichengwu/013d7bfb-762a-4c9d-8bcc-936e1d8fc552_zps86f0ad10.jpg)
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
 
-## What HPSTR brings to the table:
+## 李成武
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+----
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
+JVM爱好者，热爱互联网，宅技术，爱看书。
 
-[^1]: Example: *domain.com/category-name/post-title*
+## 愿望
+
+----
+
+做有积累的事，用科技改变生活。
+
+## 座右铭
+
+----
+会笑的人总是把笑留在最后，就像春雷总是走在闪电之前，却一鸣惊人！
+
+## 联系我
+
+----
+
+* [Twitter](https://twitter.com/ol_beta)
+* [GitHub](https://github.com/lichengwu)
+* [Facebook](http://www.facebook.com/lxw.beta)
+* [微博](http://www.weibo.com/521405674)
+* [Stackoverflow](http://stackoverflow.com/users/1125197/lichengwu)
+* [豆瓣](http://www.douban.com/people/ol_l/)
+* <ol_l@msn.cn>
