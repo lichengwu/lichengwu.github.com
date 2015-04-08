@@ -45,6 +45,7 @@ tags: [jquery, prototype, easyvalidation, javascript]
     }
       
 ------
+
 #### 附录：
 
 `jQuery.noConflict()`
@@ -66,6 +67,7 @@ By using this function, you will only be able to access jQuery using the 'jQuery
 
 ##### 返回值
 jQuery
+
 ##### 示例
 将$引用的对象映射回原始的对象。
 

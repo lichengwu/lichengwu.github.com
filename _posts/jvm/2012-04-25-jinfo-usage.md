@@ -27,6 +27,7 @@ tags: [jinfo,  jvm]
         -sysprops            to print Java system properties  
         <no option>          to print both of the above  
         -h | -help           to print this help message  
+
 #### 例子：
  
     $ jinfo -flag HeapDumpBeforeFullGC  29167  #查看HeapDumpBeforeFullGC  

@@ -47,6 +47,7 @@ jQuery团队为用户提供了贴心的方法让jQuery能与其他js库(如Proto
     var fun=function($){/*代码块*/};  
     //调用函数  
     fun(jQuery);  
+
 #### 方法三：
 
     jQuery(function($){/*代码块*/})

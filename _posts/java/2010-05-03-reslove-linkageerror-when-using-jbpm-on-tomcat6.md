@@ -12,8 +12,10 @@ tags: [jbpm,  java,  tomcat]
 
 ### 以下是找到的方法：
 因为tomcat6下的el-api.jar与jBPM-4使用的juel.jar产生冲突。
+
 ##### 解决方法一：
 改用tomcat-5.5。
+
 ##### 解决方法二：
 将juel.jar, juel-engine.jar, juel-impl.jar三个文件复制到tomcat的lib目录下，删除原有的el-api.jar即可解决。
  

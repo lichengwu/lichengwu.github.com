@@ -7,6 +7,7 @@ subhead: ''
 tags: [ci, jenkins]
 
 ---
+
 #### 获取最新Jenkins
 
     wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war

@@ -19,6 +19,7 @@ tags: [vim, tool]
 	:ab jvm Java Virtual Mechine
 	
 插入模式下输入jvm，然后按esc，jvm就好自动替换成Java Virtual Mechine。	
+
 ### 忘记以root打开的时候
 当打开一个文件，修改后输入`:w`忽然发现没有写权限的时候，可以键入:
 	

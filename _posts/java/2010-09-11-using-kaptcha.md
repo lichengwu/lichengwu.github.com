@@ -15,19 +15,29 @@ kaptcha工作的原理是调用com.google.code.kaptcha.servlet.KaptchaServlet，
 #### kaptcha可以配置一下信息：
 
 ##### 1.验证码的字体
+
 ##### 2.验证码字体的大小
+
 ##### 3.验证码字体的字体颜色
+
 ##### 4.验证码内容的范围(数字，字母，中文汉字！)
+
 ##### 5.验证码图片的大小，边框，边框粗细，边框颜色
+
 ##### 6.验证码的干扰线(可以自己继承com.google.code.kaptcha.NoiseProducer写一个自定义的干扰线)
+
 ##### 7.验证码的样式(鱼眼样式、3D、普通模糊……当然也可以继承com.google.code.kaptcha.GimpyEngine自定义样式)
+
 ##### 8.……
 
 详细信息请看下面的web.xml文件
 
 #### 下面介绍一下用法:
+
 ##### 1. 首先去官网下载jar:http://code.google.com/p/kaptcha/
+
 ##### 2. 建立一个web项目，导入kaptcha-2.3.jar到环境变量中。
+
 ##### 3. 配置web.xml文件
 
 其实就是配置com.google.code.kaptcha.servlet.KaptchaServlet

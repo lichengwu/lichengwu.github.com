@@ -87,6 +87,7 @@ jmxremote.access
     [用户名]      [权限]
     mtct        readwrite
     test        readonly
+
 #### 第三种配置------SSL
 
 参考：[http://download.oracle.com/javase/1.5.0/docs/guide/management/agent.html#SSL_enabled](http://download.oracle.com/javase/1.5.0/docs/guide/management/agent.html#SSL_enabled)

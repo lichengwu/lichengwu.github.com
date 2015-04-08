@@ -43,8 +43,10 @@ tags: [daemontools, linux]
  
 #### Check status
     svstat /service/srv1
+
 #### Stop
     svc -d /service/srv1
+
 #### Start
     svc -u /service/srv1
 

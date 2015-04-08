@@ -52,6 +52,7 @@ pageEncoding="UTF-8"，为了让JSP引擎能正确地解码含有中文字符的
     <Connector port="8088" protocol="HTTP/1.1"   
                    connectionTimeout="20000"   
                    redirectPort="8443" URIEncoding="utf-8"/>  
+
 #### 3.打包文件(zip)乱码 
 
 如果用原生的`java.util.zip.ZipOutputStream`进行文件打包，当文件名出现中文的时候，会出现乱码，目前还没有很好的解决方法，除非修改这个类的代码，然后重新打包。

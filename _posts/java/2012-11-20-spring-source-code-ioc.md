@@ -19,7 +19,9 @@ tags: [spring,  ioc,  java, source]
 #### Ioc初始化大概分三个步骤：
  
 ##### 准备工作(黑线)
+
 ##### 加载Resource(红线)
+
 ##### 通过Resource加载Bean定义并注册到Ioc容器中(绿线)
 
 

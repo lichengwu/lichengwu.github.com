@@ -31,6 +31,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 ##### pg:pager 
 定义分页开始标签，在这个标签里面可以定义pager:index pager:next……相当于html的body标签 
+
 #### 格式： 
 > id="value"//id默认为pager，用来获得pager的属性。例如：request.getParamenter(“pager.offset”);
 > url="url"//用来生成每次分页请求的url，默认request.getRequestURI()，如果默认，所以url参数将被移除       
@@ -41,6 +42,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:param 
 相当于request.setAttribute(“name”,"value“),分页url传参 
+
 #### 格式： 
 
 >id="value" 
@@ -49,6 +51,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:index 
 分页索引，`定义在pg:pager里面` 
+
 #### 格式： 
 
 >id="value" 
@@ -57,6 +60,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:first 
 用在`pg:index`里面，生成首页链接 
+
 #### 格式： 
 
 >id="value" 
@@ -67,6 +71,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:prev 
 用在pg:index里面，生成上一页链接 
+
 #### 格式： 
 
 >id="value" 
@@ -77,6 +82,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:page 
 用在pg:index里面，生成当前页码链接或者导出当前页 
+
 #### 格式： 
 
 >id="value" 
@@ -86,6 +92,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:pages 
 用在pg:index里面，生成所有页码 
+
 #### 格式： 
 
 >id="value" 
@@ -95,6 +102,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:next 
 用在pg:index里面，用来生成下一页链接 
+
 #### 格式： 
 
 >id="value" 
@@ -105,6 +113,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 #### pg:last 
 用在pg:index里面，用来生成尾页链接 
+
 #### 格式： 
 
 >id="value" 
