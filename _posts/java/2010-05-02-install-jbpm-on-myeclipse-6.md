@@ -58,4 +58,3 @@ Local Site 其他步骤一样，最后结果一样失败！
 ### 总结:
 当我们安装Eclipse/MyEclipse插件的时候，一般都是用方法一和方法二(还有link的方法)，第三种方法是在是迫不得已，建议不要采用！
 
-{% include JB/setup %}

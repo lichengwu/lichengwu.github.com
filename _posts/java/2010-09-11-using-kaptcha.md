@@ -191,4 +191,3 @@ kaptcha工作的原理是调用com.google.code.kaptcha.servlet.KaptchaServlet，
 工程下载：[http://download.csdn.net/source/2687960](http://download.csdn.net/source/2687960)
 
 
-{% include JB/setup %}

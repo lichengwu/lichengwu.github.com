@@ -38,4 +38,3 @@ rewrite不涉及query string，只是uri，所以：
 参考：[http://wiki.nginx.org/HttpCoreModule#.24args](http://wiki.nginx.org/HttpCoreModule#.24args)
 
 
-{% include JB/setup %}

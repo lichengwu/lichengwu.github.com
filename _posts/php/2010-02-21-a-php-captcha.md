@@ -69,4 +69,3 @@ tags: [php, captcha]
     ?>
 
 
-{% include JB/setup %}

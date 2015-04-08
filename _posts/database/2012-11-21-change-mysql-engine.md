@@ -26,4 +26,3 @@ tags: [mysql, engine, database]
       
 这种方式时候表的数据量比较大的情况，可以分批根据范围倒入，不会锁myTable。 
 
-{% include JB/setup %}

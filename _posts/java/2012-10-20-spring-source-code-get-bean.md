@@ -14,7 +14,7 @@ tags: [spring,  java, source]
 
 这个是`XmlWebApplicationContext`的类继承体系：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/get_bean_zps8050af78.png)
+![image](/images/java/get_bean_zps8050af78.png)
 
 首先，getBean(String name)是在BeanFactory接口中定义的，而在AbstractApplicationContext中实现：
  
@@ -400,4 +400,3 @@ doCreateBean方法主要填充bean的属性，处理依赖关系，处理post-pr
 
 
 ---
-{% include JB/setup %}

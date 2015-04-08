@@ -48,4 +48,3 @@ tags: [daemontools, linux]
 #### Start
     svc -u /service/srv1
 
-{% include JB/setup %}

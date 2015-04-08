@@ -18,7 +18,7 @@ ReText是一个用python写的markdown编辑器，底层使用了Qt类库。无�
     
 安装发现按钮的图标都无法显示：
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/NewdocumentmdashReText_001_zpse77c6b89.png)
+![](/images/linux/NewdocumentmdashReText_001_zpse77c6b89.png)
 
 #### 解决方法:
 

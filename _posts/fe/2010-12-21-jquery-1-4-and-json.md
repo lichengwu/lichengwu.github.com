@@ -66,4 +66,3 @@ http://api.jquery.com/jQuery.ajax/
 http://forum.jquery.com/topic/jquery-1-4-x-getjson-callback-function-doesn-t-work
 
 
-{% include JB/setup %}

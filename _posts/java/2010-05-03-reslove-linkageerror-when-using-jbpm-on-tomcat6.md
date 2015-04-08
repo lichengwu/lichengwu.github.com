@@ -22,4 +22,3 @@ tags: [jbpm,  java,  tomcat]
 原文：[http://yaowei06252009.javaeye.com/blog/608334](http://yaowei06252009.javaeye.com/blog/608334)
  
 
-{% include JB/setup %}

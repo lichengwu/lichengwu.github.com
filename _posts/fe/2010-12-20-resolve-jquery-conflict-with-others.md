@@ -58,4 +58,3 @@ jQuery团队为用户提供了贴心的方法让jQuery能与其他js库(如Proto
 我们声明`$`为就绪函数的参数，因为jQuery总是吧jQuery对象的引用作为第一个参数传递，所以就保证了函数的执行。
 
 
-{% include JB/setup %}

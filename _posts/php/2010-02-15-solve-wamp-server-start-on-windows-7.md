@@ -28,4 +28,3 @@ tags: [apache,  httpd,  wamp,  php]
 重启apache，访问http://localhost 也可以。
 
 
-{% include JB/setup %}

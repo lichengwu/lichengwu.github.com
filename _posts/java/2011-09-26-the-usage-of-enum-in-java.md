@@ -150,4 +150,3 @@ JDK1.6之前的switch语句只支持int,char,enum类型，使用枚举，能让�
 
 参考资料：《ThinkingInJava》第四版
 
-{% include JB/setup %}

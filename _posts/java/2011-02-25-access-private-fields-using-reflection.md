@@ -34,4 +34,3 @@ tags: [java, reflection]
  
 输出结果：`private`
 
-{% include JB/setup %}

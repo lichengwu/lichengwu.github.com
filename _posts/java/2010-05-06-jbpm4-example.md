@@ -51,4 +51,3 @@ MyEclipse工程
 [工程下载](http://cid-2c8a0dc7c1eb1d71.skydrive.live.com/self.aspx/soft/leave%5E_web.rar)
 
 
-{% include JB/setup %}

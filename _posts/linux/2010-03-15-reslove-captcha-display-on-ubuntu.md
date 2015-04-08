@@ -50,4 +50,3 @@ tags: [ubuntu, linux, LAMP, gd2, captcha]
 
 这样就OK了！
 
-{% include JB/setup %}

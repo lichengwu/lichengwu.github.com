@@ -35,4 +35,3 @@ NO.| 分级 |标题
  [jBPM
 4官方开发指南](http://www.family168.com/tutorial/jbpm4devguide/html/index.html)中文版
 
-{% include JB/setup %}

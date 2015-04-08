@@ -16,7 +16,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 
 举个例子,效果如下:
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zpsbb69f644.png)
+![image](/images/java/1_zpsbb69f644.png)
 
 
 注：demo采用了SSH（struts2+hibernate+spring) 其实根本不用这么复杂就能演示，只是为了学习，分页效果加入css样式。
@@ -25,7 +25,7 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 2. 写好分页查询的后台方法，将数据返回给jsp页面。
 3. jsp页面抓去数据，并显示：(需要的数据：查询返回的当前页数据集合、当前查询返回的总条数)。
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps1384fc77.png)
+![image](/images/java/2_zps1384fc77.png)
 
 #### 标签说明：
 
@@ -113,4 +113,3 @@ Pager采用标签的形式对数据进行分页，用法简单，支持自定义
 ><%= pageUrl %> 
 ><%= pageNumber %> 
 
-{% include JB/setup %}

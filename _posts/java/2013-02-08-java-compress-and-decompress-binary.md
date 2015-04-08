@@ -7,7 +7,6 @@ subhead: ''
 tags: [java, decompress, compress]
 
 ---
-{% include JB/setup %}
 
 在Java中提供[Deflater](http://docs.oracle.com/javase/7/docs/api/java/util/zip/Deflater.html)和[Inflater](http://docs.oracle.com/javase/7/docs/api/java/util/zip/Inflater.html)工具类来压缩/解压缩数据。
 这两个工具类采用[zlib](http://en.wikipedia.org/wiki/Zlib)算法，下面给出一个封装好的工具。

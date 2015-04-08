@@ -79,4 +79,3 @@ tags: [life,reading,book]
 2014已过大半，to be continue ...
 
 
-{% include JB/setup %}

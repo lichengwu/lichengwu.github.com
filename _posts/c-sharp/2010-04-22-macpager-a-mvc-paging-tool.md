@@ -20,4 +20,3 @@ tags: [c#, mvc]
 
 [http://mvcpager.codeplex.com/](http://mvcpager.codeplex.com/)
 
-{% include JB/setup %}

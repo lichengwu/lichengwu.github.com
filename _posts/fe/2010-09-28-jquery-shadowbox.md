@@ -155,4 +155,3 @@ shadowbox支持图片，视频，html，frame，ajax还是很强大的。
 
 总的来说还不错，够用了。
 
-{% include JB/setup %}

@@ -137,4 +137,3 @@ tags: [java,  pid,  jvm,  getpids]
         }
     }
 
-{% include JB/setup %}

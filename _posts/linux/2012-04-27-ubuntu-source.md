@@ -39,4 +39,3 @@ tags: [ubuntu, source]
 
 可以根据地区等自定义。
 
-{% include JB/setup %}

@@ -24,7 +24,7 @@ tags: [java,  jvm]
 
 每个普通Java对象在堆(heap)中都有一个头信息(object header)，头信息是必不可少的，记录着对象的状态。
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/Object_Header_zpsbaadc065.png)
+![](/images/java/Object_Header_zpsbaadc065.png)
 
 32位与64位占用空间不同，在32位中：
 
@@ -114,7 +114,6 @@ Object Header占4byte，Pointer占4byte，一个int字段(size)占4byte，elemen
 ### 总结
 性能和可读性向来就有些矛盾，在这里也是，为了节约内存，不得不进行取舍，代码丑陋了一些，可读性差了一些，还好能省下一些内存。上面的原则在确实需要节约内存的时候，不妨可以试试！
 
-{% include JB/setup %}
 
 
 

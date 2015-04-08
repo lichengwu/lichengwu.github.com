@@ -70,19 +70,19 @@ tags: [time, management]
 
 **Free, Simple & Fun** 
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zpsf43d305a.png)
+![image](/images/management/1_zpsf43d305a.png)
 
 Any.DO makes it easy to capture all the things you want to do and helps you in getting them done.
 
 **Keeps everything in sync**
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zpsfaeed106.png)
+![image](/images/management/2_zpsfaeed106.png)
 
 Any.DO seamlessly syncs with all your devices, so you can easily stay on top of just about anything.
 
 **Do Better, Together**
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/3_zpsa9e801de.png)
+![image](/images/management/3_zpsa9e801de.png)
 
 Share your to-do’s with friends, family, and colleagues to get even more things done.
 
@@ -97,4 +97,3 @@ Share your to-do’s with friends, family, and colleagues to get even more thing
 时间管理有着很多理论和实践，效果如何因人而异。找到最适合自己的方法，然后持之以恒，相信每个人都能受益匪浅，不断鼓励自己，完成新的任务，迈向新的目标。
 
 
-{% include JB/setup %}

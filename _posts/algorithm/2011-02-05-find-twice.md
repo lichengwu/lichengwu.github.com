@@ -45,4 +45,3 @@ tags: [java, algorithm]
 美国宇航局花了100万研制出了能在太空写字的钢笔，请问对此前苏联是怎么做的呢？
 
 
-{% include JB/setup %}

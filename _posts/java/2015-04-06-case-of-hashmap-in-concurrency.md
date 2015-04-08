@@ -78,7 +78,7 @@ HSF线程开了200个，应用相关的正在运行的线程最多的是`com.tao
 
 继续分析可能是依赖的二方或者三方jar包引起，重新申请分支，提发布单，查看发布包变化：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/QQ20150406-12x_zpsdjcjhuln.png)
+![image](/images/java/QQ20150406-12x_zpsdjcjhuln.png)
 
 通过对比发现，本次发布涉及jar包变更很小，而且无三方包变更，只有内部包发生变化。对变化的包进行分析没有找到`new byte[]`地方。
 
@@ -288,4 +288,3 @@ HSF在对Map的序列化时候，对遍历Map，进行序列化：
 
 
 
-{% include JB/setup %}

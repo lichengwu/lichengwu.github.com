@@ -118,4 +118,3 @@ tags: [java, design-pattern, agile]
 
 
 
-{% include JB/setup %}

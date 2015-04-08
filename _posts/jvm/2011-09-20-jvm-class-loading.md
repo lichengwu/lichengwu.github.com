@@ -10,7 +10,7 @@ tags: [jvm,  java, class-loading]
 
 类从加载到虚拟机到卸载，它的整个生命周期包括：加载（Loading），验证（Validation），准备（Preparation），解析（Resolution），初始化（Initialization），使用（Using）和卸载（Unloading）。其中，验证、准备和解析部分被称为连接（Linking）。
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps819f28a3.png)
+![image](/images/jvm/1_zps819f28a3.png)
 
 #### 加载：
 在加载阶段，虚拟机主要完成三件事：
@@ -54,4 +54,3 @@ tags: [jvm,  java, class-loading]
 《深入JAVA 虚拟机第二版》 BillVenners
 
 
-{% include JB/setup %}

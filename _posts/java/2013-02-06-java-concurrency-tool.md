@@ -278,4 +278,3 @@ Exchanger提供两个线程以线程安全的形式交换数据，exchange等待
 
 
 
-{% include JB/setup %}

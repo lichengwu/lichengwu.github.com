@@ -112,4 +112,3 @@ tags: [algorithm, bitmap, vector-diagram]
  
 说明：这个排序的速度很快，但是适合稠密的数据集合，不然会浪费很多内存。
 
-{% include JB/setup %}

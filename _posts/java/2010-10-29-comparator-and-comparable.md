@@ -65,4 +65,3 @@ tags: [java, sort, collections, comparable, comparator]
         }
     }  
 
-{% include JB/setup %}

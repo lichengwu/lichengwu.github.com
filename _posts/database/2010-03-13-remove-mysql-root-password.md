@@ -13,4 +13,3 @@ tags: [mysql,  password, database]
     FLUSH PRIVILEGES; 
 
 
-{% include JB/setup %}

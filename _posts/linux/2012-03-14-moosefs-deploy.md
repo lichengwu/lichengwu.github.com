@@ -34,7 +34,7 @@ tags: [moosefs, dfs]
 
 ##### 1.process read
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps15da9fd7.png)
+![image](/images/linux/1_zps15da9fd7.png)
 
 1. 询问master server要访问的文件在哪个文件服务器
 
@@ -46,7 +46,7 @@ tags: [moosefs, dfs]
 
 ##### 2.process write
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps3344c68f.png)
+![image](/images/linux/2_zps3344c68f.png)
 
 1. 客户端向master server询问文件存储位置
 
@@ -117,4 +117,3 @@ chunk server 进程: /usr/sbin/mfschunkserver start
 解决单点问题： [http://hi.baidu.com/leolance/blog/item/7ac035205870f020c9955905.html](http://hi.baidu.com/leolance/blog/item/7ac035205870f020c9955905.html)
 
 
-{% include JB/setup %}

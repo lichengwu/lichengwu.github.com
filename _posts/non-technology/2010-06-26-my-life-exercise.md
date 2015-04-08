@@ -30,4 +30,3 @@ tags: [life, exercise]
 
 如果哪天你觉得我疯了，那是因为你疯了。
 
-{% include JB/setup %}

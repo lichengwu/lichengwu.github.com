@@ -25,4 +25,3 @@ tags: [javascript]
 PS：在firefox中，需要设置：
 打开"about:config"页面，查找`signed.applets.codebase_principal_support`属性，将其值设置为`true`。
 
-{% include JB/setup %}

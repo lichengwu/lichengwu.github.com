@@ -28,4 +28,3 @@ tags: [ubuntu, linux]
 原文地址：http://my.oschina.net/myriads/blog/2867
 
 
-{% include JB/setup %}

@@ -27,7 +27,7 @@ Eclipse插件安装地址：[http://findbugs.cs.umd.edu/eclipse/](http://findbug
 
 IDEA插件安装地址：[http://plugins.jetbrains.com/plugin/3847](http://plugins.jetbrains.com/plugin/3847)
 
-![截图](http://i1298.photobucket.com/albums/ag53/lichengwu/preview_zps13c573f1.png)
+![截图](/images/java/preview_zps13c573f1.png)
 
 ### 支持类型
 
@@ -139,7 +139,7 @@ IDEA插件安装地址：[http://plugins.jetbrains.com/plugin/3847](http://plugi
 
 #### 性能：
 低效的迭代器：
-![http://i1298.photobucket.com/albums/ag53/lichengwu/performance_1_zps684644d6.png](http://i1298.photobucket.com/albums/ag53/lichengwu/performance_1_zps684644d6.png)
+![/images/java/performance_1_zps684644d6.png](/images/java/performance_1_zps684644d6.png)
 
 修改后：
 
@@ -148,7 +148,7 @@ IDEA插件安装地址：[http://plugins.jetbrains.com/plugin/3847](http://plugi
     }
     
 装箱/拆箱
-![http://i1298.photobucket.com/albums/ag53/lichengwu/performance_2_zpsfa307a6d.png](http://i1298.photobucket.com/albums/ag53/lichengwu/performance_2_zpsfa307a6d.png)
+![/images/java/performance_2_zpsfa307a6d.png](/images/java/performance_2_zpsfa307a6d.png)
 `0L`在java.lang.Long中是有缓存的，所以常量0L先拆箱成小long，然后赋值给agengId的时候装箱成大Long，两次操作就是没有必要的。
 
 修改后：
@@ -157,14 +157,14 @@ IDEA插件安装地址：[http://plugins.jetbrains.com/plugin/3847](http://plugi
     
 静态变量:
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/performance_3_zps953e82e7.png](http://i1298.photobucket.com/albums/ag53/lichengwu/performance_3_zps953e82e7.png)
+![/images/java/performance_3_zps953e82e7.png](/images/java/performance_3_zps953e82e7.png)
 
 这个常量是在初始化的时候赋值的，在内存中没有必要存在多份，可以声明成static。
 
 
 内部类，何不静态？
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/performance_4_zps26c9d77b.png](http://i1298.photobucket.com/albums/ag53/lichengwu/performance_4_zps26c9d77b.png)
+![/images/java/performance_4_zps26c9d77b.png](/images/java/performance_4_zps26c9d77b.png)
 
 MuFlightInfoDO是MuFlightFareQuery的内部类，MuFlightInfoDO的实例保存了一份创建它的类（MuFlightFareQuery）的引用，这样不仅使MuFlightInfoDO类占用更大的空间，而且是外部的MuFlightFareQuery生命周期更长了。
 
@@ -172,24 +172,24 @@ MuFlightInfoDO是MuFlightFareQuery的内部类，MuFlightInfoDO的实例保存�
 
 忽略异常：
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/bp_1_zps8cbf8e46.png](http://i1298.photobucket.com/albums/ag53/lichengwu/bp_1_zps8cbf8e46.png)
+![/images/java/bp_1_zps8cbf8e46.png](/images/java/bp_1_zps8cbf8e46.png)
 
 
 集合使用removeAll来清理：
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/bp_2_zps02c6d731.png](http://i1298.photobucket.com/albums/ag53/lichengwu/bp_2_zps02c6d731.png)
+![/images/java/bp_2_zps02c6d731.png](/images/java/bp_2_zps02c6d731.png)
 
 直接调用clear()或者是个bug?
 
 流程：
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/bp_3_zps5fb05951.png](http://i1298.photobucket.com/albums/ag53/lichengwu/bp_3_zps5fb05951.png)
+![/images/java/bp_3_zps5fb05951.png](/images/java/bp_3_zps5fb05951.png)
 
 else if里面有没任何代码，考虑删除。
 
 集合：
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/bp_4_zps48cb693d.png](http://i1298.photobucket.com/albums/ag53/lichengwu/bp_4_zps48cb693d.png)
+![/images/java/bp_4_zps48cb693d.png](/images/java/bp_4_zps48cb693d.png)
 
 `hsfServices` 声明成map：ConcurrentHashMap&lt;String,HSFSpringConsumerBean hsfServices&gt;
 
@@ -197,7 +197,7 @@ else if里面有没任何代码，考虑删除。
     
 equal类型不匹配：
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/QQ622A56FE20131124134350_zps59c66a2c.png](http://i1298.photobucket.com/albums/ag53/lichengwu/QQ622A56FE20131124134350_zps59c66a2c.png)
+![/images/java/QQ622A56FE20131124134350_zps59c66a2c.png](/images/java/QQ622A56FE20131124134350_zps59c66a2c.png)
 
 dfare.getAgentSupportType().equals(AgentSupportType.ONE) 左边Integer，右边enum。
     
@@ -206,7 +206,7 @@ dfare.getAgentSupportType().equals(AgentSupportType.ONE) 左边Integer，右边e
 
 DateFormat
 
-![http://i1298.photobucket.com/albums/ag53/lichengwu/qq_zps9b7f1f9c.png](http://i1298.photobucket.com/albums/ag53/lichengwu/qq_zps9b7f1f9c.png)
+![/images/java/qq_zps9b7f1f9c.png](/images/java/qq_zps9b7f1f9c.png)
 DateFormat不是线程安装的，在这里声明为类成员，会有问题。
 
 ### 总结
@@ -217,4 +217,3 @@ DateFormat不是线程安装的，在这里声明为类成员，会有问题。
     
 
 
-{% include JB/setup %}

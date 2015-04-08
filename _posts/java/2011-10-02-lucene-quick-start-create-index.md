@@ -73,4 +73,3 @@ tags: [lucene,  java, index, framework]
     }
 
 
-{% include JB/setup %}

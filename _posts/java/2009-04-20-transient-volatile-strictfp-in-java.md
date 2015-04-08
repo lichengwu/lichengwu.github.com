@@ -71,4 +71,3 @@ strictfp的意思是FP-strict，也就是说精确浮点的意思。在Java虚�
 介绍:声明的范围内Java的编译器以及运行环境会完全依照浮点规范`IEEE-754`来执行
 
 
-{% include JB/setup %}

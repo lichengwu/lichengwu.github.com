@@ -54,4 +54,3 @@ eg:
 VCL官方文档：[https://www.varnish-cache.org/docs/3.0/reference/vcl.html](https://www.varnish-cache.org/docs/3.0/reference/vcl.html)
  
 
-{% include JB/setup %}

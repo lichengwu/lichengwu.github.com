@@ -73,4 +73,3 @@ tags: [java,  linux,  shell,  cmd]
     3 个文件 998 字节
     7 个目录 13,018,263,552 可用字节
 
-{% include JB/setup %}

@@ -45,4 +45,3 @@ tags: [java,  iText]
  
 好了，现在可以打开生成的chinese.pdf看到中文了！
 
-{% include JB/setup %}

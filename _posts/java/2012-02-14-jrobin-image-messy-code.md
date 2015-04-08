@@ -17,4 +17,3 @@ tags: [java, jrobin, messy-code, rrd]
     graphDef.setLargeFont(new Font(Font.MONOSPACED, Font.BOLD, 12));  
     ....  
 
-{% include JB/setup %}

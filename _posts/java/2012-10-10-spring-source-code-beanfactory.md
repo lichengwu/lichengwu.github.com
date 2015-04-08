@@ -12,7 +12,7 @@ tags: [spring, java, source]
 
 以`FileSystemXmlApplicationContext`为例，看看BeanFactory的体系结构。
  
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zpsa644d7f1.png)
+![image](/images/java/1_zpsa644d7f1.png)
 
 从上往下：
  
@@ -64,6 +64,5 @@ DefaultListableBeanFactory包含了Ioc容器的重要内容，很多容器都会
       
  另外附上DefaultListableBeanFactory的层级结构图：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps22ba994e.png)
+![image](/images/java/2_zps22ba994e.png)
 
-{% include JB/setup %}

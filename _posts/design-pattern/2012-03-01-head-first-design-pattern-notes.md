@@ -77,4 +77,3 @@ MVC中：
     C：策略模式
 
 
-{% include JB/setup %}

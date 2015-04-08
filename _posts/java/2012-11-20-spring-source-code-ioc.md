@@ -14,7 +14,7 @@ tags: [spring,  ioc,  java, source]
 
 首先，在web.xml中配置ContextLoaderListener，当启动项目的会有下图：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/ioc_zps75bb1a82.png)
+![image](/images/java/ioc_zps75bb1a82.png)
 
 #### Ioc初始化大概分三个步骤：
  
@@ -23,4 +23,3 @@ tags: [spring,  ioc,  java, source]
 ##### 通过Resource加载Bean定义并注册到Ioc容器中(绿线)
 
 
-{% include JB/setup %}

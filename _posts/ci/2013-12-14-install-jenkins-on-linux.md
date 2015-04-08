@@ -145,4 +145,3 @@ jenkins要以admin执行远程机器的build的脚本，而admin账户禁止登�
  <script src="https://gist.github.com/lichengwu/7960277.js" />
 
 
-{% include JB/setup %}

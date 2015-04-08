@@ -94,4 +94,3 @@ linux编译OpenJDK比较简单：[http://blog.lichengwu.cn/jvm/2012/06/13/compil
 5.  《深入Java虚拟机》，失传江湖的最早将JVM的书，已经没有出版了，不过可以下载PDF，里面的内容是基于JDK1.2以前讲的，有些技术已经过时了，不过我们可以拿来当历史书看啊！[http://book.douban.com/subject/1138768/](http://book.douban.com/subject/1138768/)
 6.  《虚拟机》经典虚拟机理论书籍，通用虚拟机概述，设计软件和硬件，需要一定基础哇：[http://book.douban.com/subject/3611865/](http://book.douban.com/subject/3611865/)
 
-{% include JB/setup %}

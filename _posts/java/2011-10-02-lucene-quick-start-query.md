@@ -37,4 +37,3 @@ tags: [java,  lucene,  search, index]
         searcher.close();
     }
 
-{% include JB/setup %}

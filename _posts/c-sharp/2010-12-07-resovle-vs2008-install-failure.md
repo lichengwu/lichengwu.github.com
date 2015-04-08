@@ -10,9 +10,9 @@ tags: [.net, vs2008]
 
 之前在2003系统中安装了Visual Studio Team System 2008 Team Suite，很顺利就能完成。但是这次在XP SP2安装Professional版本时出现了如下错误：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps5bc5f631.png)
+![image](/images/c-sharp/1_zps5bc5f631.png)
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps73405d6c.png)
+![image](/images/c-sharp/2_zps73405d6c.png)
  
 在安装VS Web创作组件时发生了异常，致使其它的组件也不能安装。很是纳闷，求助网络，得到解决方案。
 
@@ -21,4 +21,3 @@ tags: [.net, vs2008]
 
 原文地址：http://www.cnblogs.com/yank/archive/2009/03/07/1405487.html
 
-{% include JB/setup %}

@@ -22,4 +22,3 @@ tags: [jvm, compile]
 
 原文地址：[http://blog.joda.org/2011/08/printcompilation-jvm-flag.html](http://blog.joda.org/2011/08/printcompilation-jvm-flag.html)
 
-{% include JB/setup %}

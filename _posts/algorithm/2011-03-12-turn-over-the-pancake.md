@@ -121,4 +121,3 @@ tags: [algorithm, java]
 
 如有更好的算法，欢迎讨论。
 
-{% include JB/setup %}

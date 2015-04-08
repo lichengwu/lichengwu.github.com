@@ -55,7 +55,7 @@ iText是一个生成PDF文档的开源java库，能够动态从XML或者数据�
 
 结果如下:
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps6a7d60b1.png)
+![](/images/java/1_zps6a7d60b1.png)
 
 
 ### 用Fly生成内容
@@ -104,7 +104,7 @@ iText是一个生成PDF文档的开源java库，能够动态从XML或者数据�
 
  效果如下：
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zpsf3bd60e6.png)
+![](/images/java/2_zpsf3bd60e6.png)
 
 ### 在服务端创建PDF
 
@@ -138,4 +138,3 @@ iText是一个生成PDF文档的开源java库，能够动态从XML或者数据�
 
  原文地址:[http://today.java.net/pub/a/today/2007/06/26/generating-pdfs-with-flying-saucer-and-itext.html](http://today.java.net/pub/a/today/2007/06/26/generating-pdfs-with-flying-saucer-and-itext.html "http://today.java.net/pub/a/today/2007/06/26/generating-pdfs-with-flying-saucer-and-itext.html")
 
-{% include JB/setup %}

@@ -12,17 +12,16 @@ tags: [.net,  google,  canlendar, c#]
 
 运行需要`.net 2.0`的环境
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps0d6c9e45.png)
+![](/images/c-sharp/1_zps0d6c9e45.png)
 
 运行效果：
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps661240cc.png)
+![](/images/c-sharp/2_zps661240cc.png)
 
 系统托盘：
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/3_zps2f93a218.png)
+![](/images/c-sharp/3_zps2f93a218.png)
 
 
 [下载地址](http://cid-2c8a0dc7c1eb1d71.skydrive.live.com/self.aspx/soft/GoogleCalendar.rar)
 
-{% include JB/setup %}

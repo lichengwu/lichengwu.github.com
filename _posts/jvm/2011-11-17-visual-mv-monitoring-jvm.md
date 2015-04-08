@@ -122,23 +122,22 @@ keytool -genkey -alias jetty -keystore /opt/home/lichengwu/jvm/ssl/jettyKeyStore
 
 启动VisualVM，添加远程主机：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zpseedc55cc.png)
+![image](/images/jvm/1_zpseedc55cc.png)
 
 输入远程主机地址：192.168.0.147
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps30d064e6.png)
+![image](/images/jvm/2_zps30d064e6.png)
 
 修改端口，如果是默认端口，可可跳过
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/3_zps315c11ae.png)
+![image](/images/jvm/3_zps315c11ae.png)
 
 添加JMX连接
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/4_zps8b2d502d.png)
+![image](/images/jvm/4_zps8b2d502d.png)
 
 完成后双击：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/5_zpsb1050a31.png)
+![image](/images/jvm/5_zpsb1050a31.png)
 
 
-{% include JB/setup %}

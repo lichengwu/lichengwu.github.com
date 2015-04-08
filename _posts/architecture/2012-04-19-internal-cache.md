@@ -26,7 +26,7 @@ tags: [cache,  varnish,  ngnix, architecture]
 
 具体流程：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/cache_zpsae90b411.png)
+![image](/images/architecture/cache_zpsae90b411.png)
 
 
 #### 说明：
@@ -35,4 +35,3 @@ tags: [cache,  varnish,  ngnix, architecture]
 
 对于打包下载文件，采用版本管理。版本=打包文件中添加时间最大的时间戳。如果版本过期，重新从线上打包并缓存。
 
-{% include JB/setup %}

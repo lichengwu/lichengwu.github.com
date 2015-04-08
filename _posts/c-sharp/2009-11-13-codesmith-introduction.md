@@ -17,4 +17,3 @@ CodeSmith中还包括一个控制台版本和一个MSBuild任务，您可以轻�
 
 
 
-{% include JB/setup %}

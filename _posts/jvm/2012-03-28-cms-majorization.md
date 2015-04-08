@@ -40,4 +40,3 @@ CMS需要更多的内存，一方面是碎片问题，另一方面是对老年�
 **-XX:CMSInitiatingOccupancyFractio=n**  当老年代内存使用达到n%,开始会后 jdk5 默认是`68%` jdk6默认`92%` CMSInitiatingOccupancyFraction = (100 - MinHeapFreeRatio) + (CMSTriggerRatio * MinHeapFreeRatio / 100)
 
 
-{% include JB/setup %}

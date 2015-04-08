@@ -35,11 +35,11 @@ GCRoots对象包括：
 
 垃圾回收前：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/5_zps5085daaf.png)
+![image](/images/jvm/5_zps5085daaf.png)
 
 垃圾回收后：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zpsbebc7ac8.png)
+![image](/images/jvm/2_zpsbebc7ac8.png)
 
 绿色：存活对象红色：可回收对象白色：未使用空间
 #### 2.复制算法（Copying ）
@@ -49,11 +49,11 @@ GCRoots对象包括：
 
 垃圾回收前:
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/5_zps5085daaf.png)
+![image](/images/jvm/5_zps5085daaf.png)
 
 垃圾回收后：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/4_zps72d05951.png)
+![image](/images/jvm/4_zps72d05951.png)
 
 绿色：存活对象红色：可回收对象白色：未使用空间
 #### 3.标记—整理算法（Mark-Compact ）
@@ -63,11 +63,11 @@ GCRoots对象包括：
 
 垃圾回收前:
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/5_zps5085daaf.png)
+![image](/images/jvm/5_zps5085daaf.png)
 
 垃圾回收后：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/4_zps72d05951.png)
+![image](/images/jvm/4_zps72d05951.png)
 
 绿色：存活对象红色：可回收对象白色：未使用空间
 
@@ -76,4 +76,3 @@ GCRoots对象包括：
 
 垃圾算法的实现涉及大量的程序细节，而且不同的虚拟机平台实现的方法也各不相同。上面介绍的只不过是基本思想。
 
-{% include JB/setup %}

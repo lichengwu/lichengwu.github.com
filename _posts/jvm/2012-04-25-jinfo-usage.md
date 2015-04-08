@@ -65,4 +65,3 @@ tags: [jinfo,  jvm]
 
 [http://docs.oracle.com/javase/6/docs/technotes/tools/share/jinfo.html](http://docs.oracle.com/javase/6/docs/technotes/tools/share/jinfo.html)
 
-{% include JB/setup %}

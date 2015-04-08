@@ -148,4 +148,3 @@ Below is a picture showing an example of a memory pool:
    
 
 
-{% include JB/setup %}

@@ -82,4 +82,3 @@ tags: [algorithm, java]
 这个问题及算法转自《编程之美》。
 
 
-{% include JB/setup %}

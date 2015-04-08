@@ -103,4 +103,3 @@ JVM命令行参数分为三种类型：标准选项(Java Virtual Machine Specifi
 </table>
 
 
-{% include JB/setup %}

@@ -53,4 +53,3 @@ tags: [java, jvm, HotSpot]
 
 
 
-{% include JB/setup %}

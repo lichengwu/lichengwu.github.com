@@ -14,4 +14,3 @@ tags: [algorithm, java]
  
 具体实现代码：[github](https://github.com/lichengwu/utils/blob/master/src/mian/java/oliver/util/colloection/FastExtremeValueAccessStack.java)
 
-{% include JB/setup %}

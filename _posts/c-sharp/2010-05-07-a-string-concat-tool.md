@@ -65,4 +65,3 @@ Multi Lines:多行多字符串拼接
 下一个版本加入去除注释（java注释，html注释，xml注释等）的功能。
 程序及源码下载 [http://cid-2c8a0dc7c1eb1d71.skydrive.live.com/self.aspx/soft/MakeAString.7z](http://cid-2c8a0dc7c1eb1d71.skydrive.live.com/self.aspx/soft/MakeAString.7z) (用IE打开，这个不是文件地址)
 
-{% include JB/setup %}

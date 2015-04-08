@@ -7,7 +7,6 @@ subhead: ''
 tags: [varnish, linux]
 
 ---
-{% include JB/setup %}
 
 #### 方法一：在启动的时候设置
    

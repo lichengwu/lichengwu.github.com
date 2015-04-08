@@ -36,4 +36,3 @@ PS：requestWhenInUseAuthorization()在plist加入对应`NSLocationWhenInUseUsag
         
 
 
-{% include JB/setup %}

@@ -156,4 +156,3 @@ post-update | org.hibernate.ejb.event.EJB3PostUpdateEventListener
  
  
 
-{% include JB/setup %}

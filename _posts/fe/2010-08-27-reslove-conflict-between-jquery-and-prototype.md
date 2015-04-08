@@ -92,4 +92,3 @@ jQuery
     $("content").style.display = 'none';
 
 
-{% include JB/setup %}

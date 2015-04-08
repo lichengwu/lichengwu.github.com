@@ -53,4 +53,3 @@ tags: [linux, shell]
 #### 查看线程启动时间
     ps -p {PID} -o lstart
 
-{% include JB/setup %}

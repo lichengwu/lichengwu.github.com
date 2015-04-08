@@ -19,7 +19,7 @@ HttpSecureLinkModule 对请求(超时，防盗)验证，每个跳转到内网的
  
 下面是一个请求的流程图：
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/cache_varnish_zps682d4519.png)
+![image](/images/architecture/cache_varnish_zps682d4519.png)
 
 配置地址：https://gist.github.com/3797290
  
@@ -157,4 +157,3 @@ nginx配置：
 
 
 
-{% include JB/setup %}

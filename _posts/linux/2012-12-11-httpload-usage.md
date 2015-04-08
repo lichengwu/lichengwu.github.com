@@ -34,4 +34,3 @@ tags: [tool,  http_load]
 -seconds简写-s ：含义是总计的访问时间
  
 
-{% include JB/setup %}

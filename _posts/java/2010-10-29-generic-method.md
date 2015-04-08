@@ -33,4 +33,3 @@ tags: [java, generic-type]
     }  
  
 
-{% include JB/setup %}

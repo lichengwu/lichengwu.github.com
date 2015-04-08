@@ -38,7 +38,7 @@ tags: [jvm, java, gc]
 ##### 1.压缩收集器： 
 压缩收集器把活动的对象移动到堆的一段，那么在堆的另一端就好出现连续的大片空白空间。 
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps9d7631db.png)
+![image](/images/jvm/1_zps9d7631db.png)
 
 ##### 2.拷贝收集器： 
 拷贝收集器将活动对象拷贝到一个新的区域，在拷贝过程中，这些活动的对象将被紧凑的放在新的区域，这样就消除了旧区域的空隙。当新区域满的时候，再将活动对象拷贝到旧区域，如此往复。 
@@ -47,11 +47,11 @@ tags: [jvm, java, gc]
 
 before copy:
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zps5f37a6d1.png)
+![image](/images/jvm/2_zps5f37a6d1.png)
 
 after copy:
 
-![image](http://i1298.photobucket.com/albums/ag53/lichengwu/3_zpsb2155209.png)
+![image](/images/jvm/3_zpsb2155209.png)
  
 ##### 3.按代收集器： 
 在程序中大对象有这样的特点，大部分对象的生命周期比较短，小部分的对象生命周期比较长。考虑到这个原因，可以把堆分成若干个子堆，每个子堆称为一代（由低到高一代，二代三代……）。把生命周短的对象放在底代中，生命周期长的放在高代中。这样，底代的对象收集会更频繁一点，高代的则收集频率少一点，保证了收集的效率。在每次收集的时候，如果发现这个代中的对象是活动的，则把它放到更高的代中，否则收集。 
@@ -60,4 +60,3 @@ after copy:
 自适应收集会根据堆中的对象情况选择适当的收集器或调整收集器的参数，以实现更高的效率。
 以上即是java垃圾回收的基本方法。如有不足和错误欢迎大家指正。
 
-{% include JB/setup %}

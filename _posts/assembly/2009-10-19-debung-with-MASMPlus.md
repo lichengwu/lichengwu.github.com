@@ -15,7 +15,7 @@ tags: [assembly, debug]
 1.打开MASMPlus的配置
 
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/1_zps8016afdf.png)
+![](/images/assembly/1_zps8016afdf.png)
 
 2.在工具中添加一个自定义工具 
 
@@ -25,16 +25,15 @@ tags: [assembly, debug]
  其他的随便写就可以了，然后确定保存。
 
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/2_zpsb5f03824.png)
+![](/images/assembly/2_zpsb5f03824.png)
 
 3.在主界面会发现刚才自定义的工具
 
 
-![](http://i1298.photobucket.com/albums/ag53/lichengwu/3_zps0a41321b.png)
+![](/images/assembly/3_zps0a41321b.png)
 
 这样工具就自定义完成了。
 
 ####注意：
 *使用Debug时确保你的汇编代码没有语法错误并且已经编译和链接好了。*
 
-{% include JB/setup %}

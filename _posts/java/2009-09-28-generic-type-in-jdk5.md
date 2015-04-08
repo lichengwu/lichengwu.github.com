@@ -50,4 +50,3 @@ Java语言引入泛型的好处是安全简单。在Java SE 1.5之前，没有�
         }  
     }   
 
-{% include JB/setup %}

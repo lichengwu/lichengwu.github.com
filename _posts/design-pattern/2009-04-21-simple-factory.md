@@ -36,4 +36,3 @@ tags: [java,  design-pattern,  factory]
         }  
     }  
 
-{% include JB/setup %}

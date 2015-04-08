@@ -45,4 +45,3 @@ tags: [java,  jvm,  gc, memory-management]
 
 可扩展对垃圾收集器也很重要。垃圾收收集器不应该在单线程和多线程执行效率是一样的，也就是说，多cpu不应该成为垃圾收集器的瓶颈。
 
-{% include JB/setup %}
