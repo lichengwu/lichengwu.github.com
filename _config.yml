@@ -1,4 +1,4 @@
-title:            小武的轨迹
+title:            
 description:      stay hungry stay foolish
 disqus_shortname: lichengwu
 reading_time:     true
@@ -33,7 +33,7 @@ background:
 google_analytics:	UA-61638615-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify: E0CE5A45F07B43AB9BCAA8262E58A8FE   
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
