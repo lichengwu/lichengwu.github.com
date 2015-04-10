@@ -1,13 +1,13 @@
 ---
 layout: post-index
-title: Latest Posts
-description: "Describe this nonsense."
-tags: [Jekyll, theme, themes, responsive, blog, modern]
+title: 做有积累的事情
+description: "做有积累的事情."
+tags: []
 comments: false
 image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: bali.jpg
+  credit: 巴厘岛
+  creditlink: 
 ---
 
 {% for post in paginator.posts %}
@@ -43,12 +43,12 @@ image:
 <div class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a href="{{ site.url }}" class="btn">Previous</a>
+      <a href="{{ site.url }}" class="btn">上一页</a>
     {% else %}
-      <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">Previous</a>
+      <a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn">上一页</a>
     {% endif %}
   {% else %}
-    Previous
+    上一页
   {% endif %}
   <ul class="inline-list">
     <li>
@@ -69,8 +69,8 @@ image:
     {% endfor %}
   </ul>
   {% if paginator.next_page %}
-    <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">Next</a>
+    <a href="{{ site.url }}/page{{ paginator.next_page }}" class="btn">下一页</a>
   {% else %}
-    Next
+    下一页
   {% endif %}
 </div><!-- /.pagination -->

@@ -1,16 +1,16 @@
-title:            
+title:            佐井
 description:      stay hungry stay foolish
 disqus_shortname: lichengwu
 reading_time:     true
-words_per_minute: 60
+words_per_minute: 30
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-# url:
+#url:
 url:	http://blog.lichengwu.cn
 
 # Owner/author information
 owner:
-  name:           李成武
+  name:           佐井
   avatar:         me.jpg
   bio:            "Stay hungry, stay foolish."
   email:          ol_l@msn.cn
@@ -50,7 +50,7 @@ sass:
 #permalink: /:categories/:title/
 permalink: /:categories/:year/:month/:day/:title
 # Amount of post to show on home page
-paginate: 5
+paginate: 3
 
 kramdown:
   input: GFM
