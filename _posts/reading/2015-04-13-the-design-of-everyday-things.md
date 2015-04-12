@@ -4,18 +4,17 @@ title: "《设计心理学》读书笔记"
 description: ""
 category: reading
 subhead: ''
-tags: [design, reading]
+tags: [design, reading, note]
 ---
 
-#### 无法查看图片，[请点击这里](http://www.xmind.net/m/Ph2b/)
+无法查看图片，[请点击这里](http://www.xmind.net/m/Ph2b/)
 
 
 <iframe id="xmindshare_embedviewer" src="http://www.xmind.net/embed/Ph2b?size=small" width="640px" height="360px" frameborder="0" scrolling="yes"></iframe>
 
-### 设计心理学
+### 设计心理学提纲
 
 <pre>
-
 
 1 1.日用品中的设计问题
   1.1 预设用途
