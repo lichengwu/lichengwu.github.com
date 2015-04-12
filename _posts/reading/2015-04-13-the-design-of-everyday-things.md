@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "设计心理学读书笔记"
+title: "《设计心理学》读书笔记"
 description: ""
 category: reading
 subhead: ''
