@@ -1,14 +1,14 @@
 ---
 layout: post
-title: ""
-description: "一种基于“哨兵”的分布式缓存设计"
+title: "一种基于“哨兵”的分布式缓存设计"
+description: "一种基于哨兵的分布式cache"
 category: architecture
-subhead: '一种基于哨兵的分布式cache'
+subhead: ''
 tags: [cache, 分布式, 架构]
 
 ---
 
-14年双11大促缓存方案，今天有点闲暇时间，回顾一下。
+14年双11大促缓存方案，今天有点闲暇时间，回顾一下当时的思路。
 
 ## 场景介绍：
 
