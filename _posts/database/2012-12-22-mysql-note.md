@@ -9,7 +9,7 @@ tags: [mysql, database]
 ---
 
 
-###1.如何计算mysql缓冲命中率
+### 1.如何计算mysql缓冲命中率
 
 **命中率=Qcache_hits/(Qcache_hits+Com_select)**
 
@@ -58,7 +58,7 @@ show status 和 show global status
 
 **尽量避免null**
 
-![image](http://blog.lichengwu.cn/images/database/ip_type.png)
+![image](http://blog.lichengwu.cn/images/database/avoid_null.png)
 
 mysql定义整数的宽度对于大多数应用程序使没有意义的，如int(1)和int(20)是一样的，它不会限制值的范围，只规定了mysql的交互工具(命令行，jdbc)用来显示处理字符的个数。
 
@@ -68,7 +68,7 @@ mysql定义整数的宽度对于大多数应用程序使没有意义的，如int
 
 **mysql对text和blob类型的排序**
 
-![image](http://blog.lichengwu.cn/images/database/text_blob.png)
+![image](http://blog.lichengwu.cn/images/database/text_blog.png)
 
 如果再explain中的extra列显示“Using Temporary”，就说明使用了隐式临时表。
 datetime与timestampe的存储区别
