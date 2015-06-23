@@ -71,7 +71,8 @@ mysql定义整数的宽度对于大多数应用程序使没有意义的，如int
 ![image](http://blog.lichengwu.cn/images/database/text_blog.png)
 
 如果再explain中的extra列显示“Using Temporary”，就说明使用了隐式临时表。
-datetime与timestampe的存储区别
+
+**datetime与timestampe的存储区别**
 
 ![image](http://blog.lichengwu.cn/images/database/datetime.png)
 
@@ -89,10 +90,12 @@ datetime与timestampe的存储区别
 
 ### 10.减少结果返回的行数与访问行数的差距
 
-###11.重构查询方式
+### 11.重构查询方式
 
 复杂查询分解为多个简单查询
+
 缩短查询(每次查询一部分，多次查询完成)
+
 分解联接
 
 ### 12. 查询优化过程
