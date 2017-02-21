@@ -39,7 +39,7 @@ bing_verify: E0CE5A45F07B43AB9BCAA8262E58A8FE
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-sitemap
