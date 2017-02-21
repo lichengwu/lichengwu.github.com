@@ -1,71 +1,92 @@
-title:            佐井
-description:      stay hungry stay foolish
-disqus_shortname: lichengwu
-reading_time:     true
-words_per_minute: 10
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-#url:
-url:	http://blog.lichengwu.cn
+# Site settings
+title: 佐井
+SEOTitle: 佐井 | 在路上
+header-img: images/home-bg.jpg
+email: ol_l@msn.cn
+description: "佐井，做有积累的事"
+keyword: "佐井, 李成武, JVM, 编程, 博客"
+url: "http://blog.lichengwu.cn"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-# Owner/author information
-owner:
-  name:           佐井
-  avatar:         me.jpg
-  bio:            "Stay hungry, stay foolish."
-  email:          ol_l@msn.cn
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        ol_beta
-  facebook:       lxw.beta
-  github:         lichengwu
-  stackexchange:  http://stackoverflow.com/users/1125197/lichengwu
-  linkedin:       lichengwu
-  instagram:      
-  flickr:         
-  tumblr:         lichengwu
-  # google plus id, include the '+', eg +mmistakes
-  # google_plus:    +李成武
 
-# Background image to be tiled on all pages
-background: 
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:	UA-61638615-1
-google_verify:      
+# SNS settings
+RSS: false
+weibo_username:     lichengwu
+zhihu_username:     lichengwu
+github_username:    lichengwu
+twitter_username:  lichengwu
+facebook_username:  lichengwu
+linkedin_username:  lichengwu
+
+
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify: E0CE5A45F07B43AB9BCAA8262E58A8FE   
+bing_verify: E0CE5A45F07B43AB9BCAA8262E58A8FE
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
-future:      true
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
-markdown:    kramdown
-gems:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-#permalink: /:categories/:title/
 permalink: /:categories/:year/:month/:day/:title/
-# Amount of post to show on home page
-paginate: 3
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
 kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-  syntax_highlighter: rouge
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+  input: GFM                            # use Github Flavored Markdown !important
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-61638615-1'            # Format: UA-xxxxxx-xx
+ga_domain: lxw.beta
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Stay hungry, stay foolish."
+sidebar-avatar: /images/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
