@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "如何减少接口响应时间"
 description: "接口优化"
 category: optimization

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "初学汇编：MASMPlus下自定义Debug工具"
 description: ""
 category: assembly

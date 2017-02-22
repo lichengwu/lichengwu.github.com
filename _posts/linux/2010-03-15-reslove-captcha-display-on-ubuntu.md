@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "ubuntu LAMP 解决验证码不能显示问题 安装gd2库"
 description: ""
 category: linux

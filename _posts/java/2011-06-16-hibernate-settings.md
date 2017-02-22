@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "hibernate属性配置"
 description: ""
 category: java

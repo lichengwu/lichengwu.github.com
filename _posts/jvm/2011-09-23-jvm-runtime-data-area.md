@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JVM 运行时数据区域"
 description: ""
 category: jvm

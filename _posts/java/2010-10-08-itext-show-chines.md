@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "iText 解决中文问字体问题 显示中文"
 description: ""
 category: java

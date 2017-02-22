@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "一种基于“哨兵”的分布式缓存设计"
 description: "一种基于哨兵的分布式cache"
 category: architecture

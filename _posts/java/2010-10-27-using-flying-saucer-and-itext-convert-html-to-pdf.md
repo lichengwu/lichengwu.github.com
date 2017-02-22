@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "利用Flying Saucer 和 iText 实现HTMl转PDF(java)"
 description: ""
 category: java

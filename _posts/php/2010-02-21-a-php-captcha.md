@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "分享一个php验证码程序 简单 实用"
 description: ""
 category: php

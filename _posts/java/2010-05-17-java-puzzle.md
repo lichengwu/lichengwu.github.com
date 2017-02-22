@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "java中的陷阱 你注意了么？"
 description: ""
 category: java

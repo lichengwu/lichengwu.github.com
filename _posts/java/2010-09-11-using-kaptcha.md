@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "kaptcha 简单方便的验证码生成工具"
 description: ""
 category: java

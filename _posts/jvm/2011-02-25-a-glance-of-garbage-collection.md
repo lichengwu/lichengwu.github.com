@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "浅谈Java垃圾回收"
 description: ""
 category: jvm

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JVM参数大全"
 description: "常用JVM参数"
 category: jvm

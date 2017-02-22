@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "MooseFS 分布式文件系统介绍与部署"
 description: ""
 category: linux

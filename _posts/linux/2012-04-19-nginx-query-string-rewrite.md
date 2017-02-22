@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "nginx query string rewrite"
 description: ""
 category: linux

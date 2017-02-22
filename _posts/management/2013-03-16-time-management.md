@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "关于时间管理"
 description: "关于时间管理的一些实践"
 category: management

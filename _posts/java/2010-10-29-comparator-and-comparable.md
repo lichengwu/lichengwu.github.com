@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "集合排序 Comparator Comparable"
 description: ""
 category: java

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "了解CMS(Concurrent Mark-Sweep)垃圾回收器"
 description: ""
 category: jvm

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JVM 类加载过程"
 description: ""
 category: jvm

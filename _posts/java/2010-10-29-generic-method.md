@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "参数化方法返回类型，参数化数组"
 description: ""
 category: java

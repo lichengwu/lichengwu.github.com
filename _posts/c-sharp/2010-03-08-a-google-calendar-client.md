@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "分享一个自己写的谷歌日历客户端(Google Calendar)"
 description: ""
 category: c-sharp

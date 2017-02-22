@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "jQuery插件shadowbox体验"
 description: ""
 category: fe

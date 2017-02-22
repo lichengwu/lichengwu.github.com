@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "基于位图、位向量的快速排序"
 description: ""
 category: algorithm

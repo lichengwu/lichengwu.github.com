@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "ubuntu解决ReText４无法显示按钮图标"
 description: ""
 category: linux

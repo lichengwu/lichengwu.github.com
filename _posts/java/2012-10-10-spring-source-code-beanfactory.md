@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Spring源码阅读——BeanFactory体系结构"
 description: ""
 category: java

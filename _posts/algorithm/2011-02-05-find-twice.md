@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "新解：给定包含4 300 000 000个32位整数的顺序文件，如何找出一个至少出现两次的整数。"
 description: ""
 category: algorithm

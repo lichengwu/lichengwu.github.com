@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "《Head First 设计模式》读书笔记"
 description: ""
 category: design-pattern

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "java执行命令(cmd,shell)"
 description: ""
 category: java

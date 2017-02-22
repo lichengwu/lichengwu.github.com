@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "web防爬"
 description: ""
 category: architecture

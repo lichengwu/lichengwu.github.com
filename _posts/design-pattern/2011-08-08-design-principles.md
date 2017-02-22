@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "软件架构设计的六大原则"
 description: ""
 category: design-pattern

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "读书笔记：设计模式-简单工厂模式（SimpleFactory）"
 description: ""
 category: design-pattern

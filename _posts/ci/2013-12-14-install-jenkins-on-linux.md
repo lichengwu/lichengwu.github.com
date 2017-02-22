@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Jenkins安装使用"
 description: ""
 category: ci

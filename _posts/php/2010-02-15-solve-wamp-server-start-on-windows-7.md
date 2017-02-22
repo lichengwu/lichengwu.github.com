@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "关于wamp server在Windows7 x86&x64上无法正常启动运行的解决方法。"
 description: ""
 category: php

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "jBPM4教程 jBPM4视频教程推荐"
 description: ""
 category: java

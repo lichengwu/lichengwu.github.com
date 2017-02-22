@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Set 不重复实现原理"
 description: ""
 category: java

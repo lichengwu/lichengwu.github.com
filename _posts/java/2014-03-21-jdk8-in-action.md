@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JDK8实战"
 description: "Jdk8新特性介绍"
 category: java

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "三种方式修改数据库的引擎"
 description: ""
 category: database

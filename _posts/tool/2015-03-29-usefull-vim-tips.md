@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "有用的vim命令，持续更新"
 description: "有用的vim命令"
 category: tool

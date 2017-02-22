@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "[case]并发环境下HashMap引起full gc排查"
 description: "第二次在并发环境下被HashMap坑"
 category: java

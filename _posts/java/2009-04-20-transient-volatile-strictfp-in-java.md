@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Java中的transient，volatile和strictfp关键字"
 description: ""
 category: java

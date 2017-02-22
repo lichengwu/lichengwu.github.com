@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "varnish使用汇总(不断更新)"
 description: ""
 category: linux

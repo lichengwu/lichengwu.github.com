@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "一些参数，弥补CMS(Concurrent Mark-Sweep)收集器的缺点"
 description: ""
 category: jvm

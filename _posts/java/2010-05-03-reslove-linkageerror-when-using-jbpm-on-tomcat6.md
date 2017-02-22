@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Tomcat6下使用jBPM-4出现 java.lang.LinkageError。javax/el/ExpressionFactory解决办法"
 description: ""
 category: java

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "PrintCompilation 参数解释"
 description: ""
 category: jvm

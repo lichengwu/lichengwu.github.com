@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "并发环境下，我们的工具类是否安全？"
 description: ""
 category: java

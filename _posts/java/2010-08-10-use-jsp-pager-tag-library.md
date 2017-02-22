@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JSP 分页框架 Pager Tag Library使用"
 description: ""
 category: java

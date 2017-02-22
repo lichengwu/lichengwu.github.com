@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "jinfo 查看、设置JVM参数"
 description: ""
 category: jvm

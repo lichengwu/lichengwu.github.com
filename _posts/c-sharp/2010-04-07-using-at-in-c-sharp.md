@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "C# @符号的多种使用方法"
 description: ""
 category: c-sharp

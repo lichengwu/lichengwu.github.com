@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "解决jrobin图像中文乱码"
 description: ""
 category: java

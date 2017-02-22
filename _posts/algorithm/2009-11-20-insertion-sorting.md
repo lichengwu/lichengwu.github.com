@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "算法：插入排序"
 description: ""
 category: algorithm

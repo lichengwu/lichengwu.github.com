@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "利用VisualVM监视远程JVM"
 description: ""
 category: jvm

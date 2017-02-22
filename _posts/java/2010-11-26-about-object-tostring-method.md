@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Object.toString()返回字符串的意义：对象名+@+对象内存地址？"
 description: ""
 category: java

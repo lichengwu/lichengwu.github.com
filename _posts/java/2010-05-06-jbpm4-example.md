@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "jBPM4.3 一个请假例子 web"
 description: ""
 category: java

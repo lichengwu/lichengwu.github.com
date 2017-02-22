@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "由象棋中的“将”和“帅”位置引出的一个算法"
 description: ""
 category: algorithm

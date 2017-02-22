@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "2013我读过的那些值得推荐的好书"
 description: ""
 category: non-technology

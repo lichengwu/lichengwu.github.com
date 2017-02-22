@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "创建节约内存的JavaBean"
 description: "如果编写节约内存的java对象"
 category: java

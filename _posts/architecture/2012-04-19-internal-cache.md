@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "文件内网缓存方案"
 description: ""
 category: architecture

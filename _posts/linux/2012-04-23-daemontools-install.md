@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "daemontools安装使用"
 description: ""
 category: linux

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "java泛型实现原理"
 description: ""
 category: java

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "O(1)复杂度获得栈中的极值"
 description: ""
 category: algorithm

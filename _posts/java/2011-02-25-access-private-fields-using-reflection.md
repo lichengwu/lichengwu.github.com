@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "利用反射访问类的私有成员"
 description: ""
 category: java

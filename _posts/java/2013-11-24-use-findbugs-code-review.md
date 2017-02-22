@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "使用findbugs为自己的代码review"
 description: "findbugs"
 category: java

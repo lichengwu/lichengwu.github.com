@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JNI入门 一个JNI的HelloWorld 程序"
 description: ""
 category: java

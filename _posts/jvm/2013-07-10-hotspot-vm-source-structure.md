@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "HotSpot VM源码结构"
 description: ""
 category: jvm

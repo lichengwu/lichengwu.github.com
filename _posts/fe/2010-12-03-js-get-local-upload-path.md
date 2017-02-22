@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JavaScript 获取上传文件的本地绝对路径"
 description: ""
 category: fe

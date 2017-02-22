@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "纯命令行方式升级ubuntu系统"
 description: ""
 category: linux

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "VS2008 安装失败解决方案"
 description: ""
 category: .net

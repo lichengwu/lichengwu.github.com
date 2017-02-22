@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Eratosthenes筛选法求素数"
 description: "prime Eratosthenes"
 category: algorithm

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JDK5.0新特性---泛型"
 description: ""
 category: java

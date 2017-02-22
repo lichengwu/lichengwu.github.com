@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "http_load工具使用"
 description: ""
 category: linux

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Java 枚举7常见种用法"
 description: ""
 category: java

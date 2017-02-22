@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "MyEclipse 6.5 JPBM 插件安装"
 description: ""
 category: java

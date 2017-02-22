@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Java压缩/解压缩二进制文件"
 description: ""
 category: java

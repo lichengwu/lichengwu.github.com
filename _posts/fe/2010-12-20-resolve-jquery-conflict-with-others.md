@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "jQuery多库共存的三种方法。"
 description: ""
 category: fe

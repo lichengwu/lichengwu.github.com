@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "varnish+nginx实现内网附件缓存"
 description: ""
 category: architecture

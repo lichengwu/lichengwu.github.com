@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "中文ubuntu里用户目录里的路径改成英文"
 description: ""
 category: linux

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Garbage First(G1)介绍"
 description: ""
 category: jvm

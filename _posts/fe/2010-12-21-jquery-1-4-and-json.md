@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "解决jQuery 1.4 json问题"
 description: ""
 category: fe

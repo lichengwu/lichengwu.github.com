@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "《敏捷软件开发》读书笔记"
 description: ""
 category: design-pattern

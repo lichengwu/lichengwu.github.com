@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Lucene 实战：快速开始 简单查询"
 description: ""
 category: java

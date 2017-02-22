@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Java内存管理——垃圾收集概念及特点"
 description: ""
 category: jvm

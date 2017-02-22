@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JVM资料汇总"
 description: "JVM资料汇总;GC资料汇总"
 category: jvm

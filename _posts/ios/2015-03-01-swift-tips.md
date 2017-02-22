@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Swift技巧，持续更新"
 description: "汇总一下初学swift遇到的问题"
 category: ios

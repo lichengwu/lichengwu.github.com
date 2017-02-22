@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Java 乱码总结"
 description: ""
 category: java

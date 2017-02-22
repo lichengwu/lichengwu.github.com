@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "CodeSmith——欢迎来到CodeSmith"
 description: ""
 category: c-sharp

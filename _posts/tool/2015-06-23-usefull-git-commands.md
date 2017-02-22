@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "有用的git命令，持续更新"
 description: "git常用命令"
 category: tool

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "跨平台获取java进程id(Process ID in Java)"
 description: ""
 category: java

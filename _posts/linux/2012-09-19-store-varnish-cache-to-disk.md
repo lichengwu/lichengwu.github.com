@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "varnish 缓存到硬盘"
 description: ""
 category: linux

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "JVM 垃圾回收算法"
 description: ""
 category: jvm

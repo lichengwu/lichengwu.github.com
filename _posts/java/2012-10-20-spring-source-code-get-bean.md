@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Spring源码阅读——获得bean"
 description: ""
 category: java

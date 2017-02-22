@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "解决 jQuery 与 prototype冲突 jQuery与easyvalidation冲突"
 description: ""
 category: fe

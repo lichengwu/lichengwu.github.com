@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "CodeSmith教程"
 description: ""
 category: c-sharp

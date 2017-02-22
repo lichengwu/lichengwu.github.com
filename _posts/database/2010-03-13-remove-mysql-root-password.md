@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "删除MySQL的root密码的方法"
 description: ""
 category: database

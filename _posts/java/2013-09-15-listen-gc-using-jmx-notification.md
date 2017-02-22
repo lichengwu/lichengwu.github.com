@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "利用JMX的Notifications监听GC"
 description: "Notification，GarbageCollectionNotificationInfo"
 category: java

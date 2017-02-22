@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "高性能MySQL读书笔记整理"
 description: ""
 category: database

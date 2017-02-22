@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Spring源码阅读——Ioc初始化过程"
 description: ""
 category: spring

@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "ubuntu12.04上编译openjdk7"
 description: ""
 category: jvm

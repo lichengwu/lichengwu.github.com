@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "翻烙饼问题"
 description: ""
 category: algorithm

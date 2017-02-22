@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "java常用并发工具介绍"
 description: ""
 category: java

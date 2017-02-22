@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "分享一个.NET MVC分页工具 MvcPager"
 description: ""
 category: c-sharp

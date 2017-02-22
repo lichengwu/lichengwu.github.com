@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "算法：归并排序"
 description: ""
 category: algorithm

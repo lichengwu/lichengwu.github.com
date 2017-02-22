@@ -1,5 +1,6 @@
 ---
 layout: post
+catalog: true
 title: "Java 中的语法糖 (Syntactic Sugar)"
 description: ""
 category: java
