@@ -11,12 +11,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 
 # SNS settings
-RSS: false
-weibo_username:     lichengwu
-zhihu_username:     lichengwu
+RSS: true
+weibo_username:     521405674
 github_username:    lichengwu
-twitter_username:  lichengwu
-facebook_username:  lichengwu
+facebook_username:  lxw.beta
 linkedin_username:  lichengwu
 
 
@@ -53,8 +51,10 @@ kramdown:
 
 
 
-# Disqus settings
-disqus_username: lichengwu
+# Duoshuo settings
+duoshuo_username: lichengwu
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true
 
 
 
