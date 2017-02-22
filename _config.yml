@@ -1,10 +1,10 @@
 # Site settings
-title: 佐井
-SEOTitle: 佐井 | 在路上
+title: 李小武
+SEOTitle: 李小武 | 在路上
 header-img: images/home-bg.jpg
 email: ol_l@msn.cn
-description: "佐井，做有积累的事"
-keyword: "佐井, 李成武, JVM, 编程, 博客"
+description: "李小武，做有积累的事"
+keyword: "李小武, JVM, 编程, 博客, Java, 思想, 架构, 思考"
 url: "http://blog.lichengwu.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
