@@ -11,10 +11,13 @@ tags: [java, jvm, hotspot]
 
 **说明：**
 	
-JVM命令行参数分为三种类型：标准选项(Java Virtual Machine Specification里定义的参数)，非标准选项(以-X为前缀，不强制JVM实现)，非稳定选项(以-XX为前缀，可能在某些版本被移除)
+JVM命令行参数分为三种类型：标准选项(Java Virtual Machine Specification里定义的参数)，非标准选项(以-X为前缀，不强制JVM实现)，非稳定选项(以-XX为前缀，可能在某些版本被移除)。
+
+
+[官网标准JVM参数](http://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html)
 
 ### CMS相关
-<table>
+<table class="table table-bordered table-striped table-condensed">
    <tr>
       <th>选项</th>
       <th>类型</th>
