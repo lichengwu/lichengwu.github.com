@@ -14,7 +14,7 @@ tags: [java, jvm, hotspot]
 JVM命令行参数分为三种类型：标准选项(Java Virtual Machine Specification里定义的参数)，非标准选项(以-X为前缀，不强制JVM实现)，非稳定选项(以-XX为前缀，可能在某些版本被移除)
 
 ### CMS相关
-<table class="table table-bordered table-striped table-condensed">
+<table>
    <tr>
       <th>选项</th>
       <th>类型</th>
@@ -101,6 +101,21 @@ JVM命令行参数分为三种类型：标准选项(Java Virtual Machine Specifi
       Tiered compilation, introduced in Java SE 7, brings client startup speeds to the server VM. Normally, a server VM uses the interpreter to collect profiling information about methods that is fed into the compiler. In the tiered scheme, in addition to the interpreter, the client compiler is used to generate compiled versions of methods that collect profiling information about themselves. Since the compiled code is substantially faster than the interpreter, the program executes with greater performance during the profiling phase. In many cases, a startup that is even faster than with the client VM can be achieved because the final code produced by the server compiler may be already available during the early stages of application initialization. The tiered scheme can also achieve better peak performance than a regular server VM because the faster profiling phase allows a longer period of profiling, which may yield better optimization.
       </td>
    </tr>
+      <tr>
+      <td>-XX:+ExplicitGCInvokesConcurrent</td>
+      <td>bool</td>
+      <td>false</td>
+      <td>仅限CMS时使用，把System.gc()变成一次CMS执行</td>
+   </tr>
+   
+   </tr>
+      <tr>
+      <td>-XX:+ExplicitGCInvokesConcurrentAndUnloadsClasses</td>
+      <td>bool</td>
+      <td>false</td>
+      <td>当ExplicitGCInvokesConcurrent打开时并执行由System.gc()引发的CMS gc时，对永久代执行UnloadsClasses</td>
+   </tr>
+   
 </table>
 
 
