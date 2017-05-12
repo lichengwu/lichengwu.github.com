@@ -17,6 +17,8 @@ tags: [kotlin,参考资料,reference]
 
 资源汇总：[https://kotlin.link/](https://kotlin.link/)
 
+问题汇总：[http://blog.lichengwu.cn/kotlin/2017/05/12/summary-of-questions/](http://blog.lichengwu.cn/kotlin/2017/05/12/summary-of-questions/)
+
 ## 电子书
 
 ### Kotlin In Action
