@@ -15,6 +15,8 @@ tags: [kotlin,tips,java]
 
 ### list转map(associateBy)
 
+场景：订单id列表转换成以id为key的订单map
+
 ````
 val mainOrders = orderDao!!.queryUserOrder(param)
 val orderMap = mainOrders.associateBy { it.id }.toMap()
